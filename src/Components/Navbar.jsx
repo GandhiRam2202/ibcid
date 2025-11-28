@@ -34,7 +34,7 @@ const Navbar = () => {
                     <div className="row">
 
                         <div className="col-sm-6 fw-bolder mt-2 fs-1">
-                            <img src='./src/assets/logo.png' height='50' className='mb-2'/>IBCID</div>
+                            <img src='/images/logo.png' height='50' className='mb-2'/>IBCID</div>
                         <div className="col-6">
                             <div className="row">
                                 <div className="col-6 text-center d-lg-block d-none" onClick={handleOpenMap}>
