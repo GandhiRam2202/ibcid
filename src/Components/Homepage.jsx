@@ -7,6 +7,16 @@ const Homepage = () => {
         
       
         <Carsol/>
+        <Carsol/>
+        <Carsol/>
+        <Carsol/>
+        <Carsol/>
+        <Carsol/>
+        <Carsol/>
+        <Carsol/>
+        <Carsol/>
+        <Carsol/>
+        <Carsol/>
         <div>
             home
         </div>
