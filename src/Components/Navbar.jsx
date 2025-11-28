@@ -28,14 +28,16 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='container-fluid bg'>
+            <div className='container-fluid bg sticky-top'>
                 <div className="col-lg-12">
 
                     <div className="row">
 
-                        <div className="col-sm-6 fw-bolder mt-2 fs-1">
+                        <div className="col-sm-12 col-lg-6 d-none d-lg-block fw-bolder mt-2 fs-1">
                             <img src='/images/logo.png' height='50' className='mb-2' />IBCID</div>
-                        <div className="col-6">
+                             <div className="col-sm-12 fw-bolder d-lg-none d-sm-block text-center mt-2 fs-1">
+                            <img src='/images/logo.png' height='50' className='mb-2' />IBCID</div>
+                        <div className="col-sm-12 col-lg-6">
                             <div className="row">
                                 <div className="col-6 text-center d-lg-block d-none" onClick={handleOpenMap}>
                                     <div>
