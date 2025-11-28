@@ -15,7 +15,7 @@ const Homepage = () => {
 
        
         <div className='mt-4 container'>
-            <h1 className='text'>About IBCID</h1>
+            <h1 className='text-danger text-center'>About IBCID</h1>
         </div>
         </>
     );
