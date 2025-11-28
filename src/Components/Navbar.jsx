@@ -102,7 +102,7 @@ const Navbar = () => {
 
                 {/*------offcanvas-------------*/}
 
-                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
   <div class="offcanvas-header">
     <h2 className="offcanvas-title text-center text-danger" id="offcanvasWithBothOptionsLabel">IBCID</h2>
     <div type="button" class="btn-close text-danger" data-bs-dismiss="offcanvas" aria-label="Close"></div>
