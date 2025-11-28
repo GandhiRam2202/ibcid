@@ -16,7 +16,7 @@ const Navbar = () => {
 
 
     const handleMail = () => {
-        window.location.href = "mailto:ibcidective22@gmail.com"; // your mail id
+        window.location.href = "mailto:ibcidetective22@gmail.com"; // your mail id
     };
 
 
@@ -49,7 +49,7 @@ const Navbar = () => {
                                     <div className="col-sm-12 col-lg-12 text-center loc d-lg-block d-none" onClick={handleCall}><i className="bi bi-telephone-fill"></i>
                                         +91-8667403826
                                     </div>
-                                    <div className="col-sm-12 col-sm-12 text-center loc d-lg-block d-none" onClick={handleMail}><i className="bi bi-envelope-fill"></i>ibcidective22@gmail.com</div>
+                                    <div className="col-sm-12 col-sm-12 text-center loc d-lg-block d-none" onClick={handleMail}><i className="bi bi-envelope-fill"></i>ibcidetective22@gmail.com</div>
                                    
                                 </div>
                                 
