@@ -104,9 +104,15 @@ const Navbar = () => {
 
                 <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
   <div class="offcanvas-header">
-    <h2 className="offcanvas-title text-center text-danger" id="offcanvasWithBothOptionsLabel">IBCID</h2>
-    <div type="button" class="btn-close text-danger" data-bs-dismiss="offcanvas" aria-label="Close"></div>
+            <div className="col-12">
+        <div className="row">
+    <div className="col-10">
+    <h2 className="offcanvas-title text-center text-danger" id="offcanvasWithBothOptionsLabel"><img src='/images/logo.png' height='50' className='mb-2 p-0' />IBCID</h2>
+    </div>
+    <div type="button col-4" className="btn-close mt-2 text-danger" data-bs-dismiss="offcanvas" aria-label="Close"></div>
+        </div>
   </div>
+            </div>
   <div class="offcanvas-body text-danger">
 
                         <div className="">Home</div>
