@@ -37,11 +37,11 @@ const Homepage = () => {
                                 Our approach is <b>methodical, efficient,</b> and <b>entirely confidential</b> giving you <b>trusted</b> results when you need them most.</p>
                                 <div className="col-sm-12 col-lg-12">
                                     <div className="row">
-                                        <div className="col-sm-12 col-lg-6"><div className="card">
+                                        <div className="col-sm-12 mt-4 col-lg-6"><div className="card">
                                             <img className="card-img-top" src='/images/evi.jpeg'/>
                                             Collect All Evidance
                                             </div></div>
-                                        <div className="col-sm-12 col-lg-6"><div className="card">
+                                        <div className="col-sm-12 mt-4 col-lg-6"><div className="card">
                                             <img className="card-img-top" src='/images/inv.jpeg'/>
                                             Strong Investigation Team
                                             </div>
