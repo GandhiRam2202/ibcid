@@ -22,18 +22,33 @@ const Homepage = () => {
 
             {/*--------------------------------------------- */}
 
-            <div className="container">
+            <div className="container mt-4">
                 <div className="col-sm-12">
                     <div className="row">
                         <div className="col-sm-12  col-lg-6">
                             <h3>
                                 Professional Private Investigation Services
                             </h3>
-                            <p>At <span className='text-danger fw-bolder'>IBCI Detective</span>, we work tirelessly to bring clarity and confidence to your personal, corporate, and legal concerns. Our investigators operate with complete discretion, ensuring that every detail is uncovered with honesty and precision.
-With years of field expertise and modern investigative tools, we provide dependable insights while maintaining strict privacy, legal compliance, and fairness throughout every case.
-</p>
-<p>
-Our approach is methodical, efficient, and entirely confidential — giving you trusted results when you need them most.</p>
+                            <p>At <span className='text-danger fw-bolder'>IBCI Detective</span>, we work tirelessly to bring <i><b>clarity</b></i> and <i><b>confidence</b></i> to your <b>personal, corporate,</b> and <b>legal concerns.</b> Our investigators operate with <b>complete discretion,</b> ensuring that every detail is uncovered with <b>honesty</b> and <b>precision,</b> and <b>professional integrity</b></p>
+
+                                <p>With <b>years of field expertise</b> and <b>modern investigative tools</b>, we provide <b>dependable insights</b> while maintaining strict privacy, <b>legal compliance,</b> and <b>fairness</b> throughout every case.</p>
+                            
+                            <p>
+                                Our approach is <b>methodical, efficient,</b> and <b>entirely confidential</b> giving you <b>trusted</b> results when you need them most.</p>
+                                <div className="col-sm-12 col-lg-12">
+                                    <div className="row">
+                                        <div className="col-sm-12 col-lg-6"><div className="card">
+                                            <img className="card-img-top" src='/images/evi.jpeg'/>
+                                            Collect All Evidance
+                                            </div></div>
+                                        <div className="col-sm-12 col-lg-6"><div className="card">
+                                            <img className="card-img-top" src='/images/inv.jpeg'/>
+                                            Strong Investigation Team
+                                            </div>
+                                            </div>
+                                  
+                                    </div>
+                                </div>
                         </div>
                         <div className="d-none d-lg-block col-lg-6">
                             koks
