@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 
@@ -115,8 +116,10 @@ const Navbar = () => {
             </div>
   <div class="offcanvas-body text-danger">
 
-                        <div className="">Home</div>
-                        <div className="">Our Services</div>
+                        
+                        <div><Link to='/'>Home</Link></div>
+                        <Link to='/Carsol'>Services</Link>
+                        
                         <div className="">About Us</div>
                         <div className="">Contact Us</div>
    
