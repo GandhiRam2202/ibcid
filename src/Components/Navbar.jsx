@@ -47,15 +47,15 @@ const Navbar = () => {
                         <div className="col-sm-12 fw-bolder d-lg-none d-sm-block text-center mt-2 fs-1">
                                 <div className="row">
                             <div className="col-11">  
-                            <img src='/images/logo.png' height='50' className='mb-2' />IBCID</div>
-                            <div className="col-1">
+                            <img src='/images/logo.png' height='50' className='mb-2 p-0' />IBCID</div>
+                            <div className="col-1 p-0">
 <i class="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></i></div>
                                     </div>                              
                             </div>
 
 
 
-                        <div className="col-sm-12 col-lg-6">
+                        <div className="col-sm-12 col-lg-6 mt-2">
                             <div className="row">
                                 <div className="col-6 text-center d-lg-block d-none" onClick={handleOpenMap}>
                                     <div>
@@ -66,10 +66,10 @@ const Navbar = () => {
 
 
                                 <div className="col-6">
-                                    <div className="col-sm-12 col-lg-12 text-center loc d-lg-block d-none" onClick={handleCall}><i className="bi bi-telephone-fill"></i>
+                                    <div className="col-sm-12 col-lg-12 text-center p-0 mt-2 loc d-lg-block d-none" onClick={handleCall}><i className="bi bi-telephone-fill"></i>
                                         +91-8667403826
                                     </div>
-                                    <div className="col-sm-12 col-sm-12 text-center loc d-lg-block d-none" onClick={handleMail}><i className="bi bi-envelope-fill"></i>ibcidetective22@gmail.com</div>
+                                    <div className="col-sm-12 col-sm-12 text-center p-0 mt-2 loc d-lg-block d-none" onClick={handleMail}><i className="bi bi-envelope-fill"></i>ibcidetective22@gmail.com</div>
 
                                 </div>
 
@@ -82,10 +82,10 @@ const Navbar = () => {
 
                     <div className="col-sm-12 d-lg-none d-sm-block text-center">
                         <div className="row">
-                            <div className="col-3" onClick={handleOpenMap}><i className="bi bi-geo-alt-fill"></i></div>
-                            <div className="col-3" onClick={handleCall}><i className="bi bi-telephone-fill"></i></div>
-                            <div className="col-3" onClick={handleMail}><i className="bi bi-envelope-fill"></i></div>
-                            <div className="col-3" onClick={handleWap}><i class="bi bi-whatsapp"></i></div>
+                            <div className="col-3 p-0" onClick={handleOpenMap}><i className="bi bi-geo-alt-fill"></i></div>
+                            <div className="col-3 p-0" onClick={handleCall}><i className="bi bi-telephone-fill"></i></div>
+                            <div className="col-3 p-0" onClick={handleMail}><i className="bi bi-envelope-fill"></i></div>
+                            <div className="col-3 p-0" onClick={handleWap}><i class="bi bi-whatsapp"></i></div>
                         </div>
                     </div>
 
