@@ -42,7 +42,7 @@ const Homepage = () => {
                                     <div className="row">
                                         <div className="col-sm-12 col-lg-6">
                                             <div className="card m-4 text-danger text-center fw-bolder">
-                                                <img className="card-img-top" src='/images/evi.jpeg' />
+                                                <img className="card-img-top" src='/images/evi.jpg' />
                                                 Collect All Evidance
                                             </div></div>
                                         <div className="col-sm-12 col-lg-6">

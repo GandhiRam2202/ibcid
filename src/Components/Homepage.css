@@ -1,3 +1,7 @@
 .txt{
     font-family: 'Times New Roman', Times, serif;
 }
+.card:hover{
+    position: relative;
+    bottom: 20px;
+}
