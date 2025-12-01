@@ -46,13 +46,13 @@ const Navbar = () => {
 
 
                         <div className="col-sm-12 fw-bolder d-lg-none d-sm-block text-center mt-2 fs-1">
-                                <div className="row">
-                            <div className="col-11">  
-                            <img src='/images/logo.png' height='50' className='mb-2 p-0' />IBCID</div>
-                            <div className="col-1 p-0">
-<i class="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></i></div>
-                                    </div>                              
+                            <div className="row">
+                                <div className="col-11">
+                                    <img src='/images/logo.png' height='50' className='mb-2 p-0' />IBCID</div>
+                                <div className="col-1 p-0">
+                                    <i class="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></i></div>
                             </div>
+                        </div>
 
 
 
@@ -90,41 +90,54 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                <div className="col-lg-12 text-center d-none d-lg-block">
-                    <div className="row">
-                        <div className="col-3">Home</div>
-                        <div className="col-3">Our Services</div>
-                        <div className="col-3">About Us</div>
-                        <div className="col-3">Contact Us</div>
+                    <div className="col-lg-12 text-center d-none d-lg-block">
+                        <div className="row">
+                            <div className="col-3"><Link className="nav-link-custom" to='/'>Home</Link></div>
+
+                            <div className="col-3 d-flex justify-content-center dropdown">
+                                <div class="dropdown-toggle nav-link-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Services
+                                </div>
+                                <ul class="col-6 dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Personal Sevices</a></li>
+                                    <li><a class="dropdown-item" href="#">Corporate Services</a></li>
+                                    <li><a class="dropdown-item" href="#">Legal Services</a></li>
+                                    <li><a class="dropdown-item" href="#">Special Services</a></li>
+                                    <li><a class="dropdown-item" href="#">SPY Camera</a></li>
+                                    <li><a class="dropdown-item" href="#">SPY Software</a></li>
+                                </ul>
+                            </div>
+                            <div className="col-3"><Link className="nav-link-custom" to='/Carsol'>About Us</Link></div>
+                            <div className="col-3"><Link className="nav-link-custom" to='/'>Contact Us</Link></div>
+                        </div>
                     </div>
-                </div>
-                    
+
                 </div>
 
                 {/*------offcanvas-------------*/}
 
                 <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-  <div class="offcanvas-header">
-            <div className="col-12">
-        <div className="row">
-    <div className="col-10">
-    <h2 className="offcanvas-title text-center text-danger" id="offcanvasWithBothOptionsLabel"><img src='/images/logo.png' height='50' className='mb-2 p-0' />IBCID</h2>
-    </div>
-    <div type="button col-4" className="btn-close mt-2 text-danger" data-bs-dismiss="offcanvas" aria-label="Close"></div>
-        </div>
-  </div>
-            </div>
-  <div class="offcanvas-body text-danger">
+                    <div class="offcanvas-header">
+                        <div className="col-12">
+                            <div className="row">
+                                <div className="col-10">
+                                    <h2 className="offcanvas-title text-center text-danger" id="offcanvasWithBothOptionsLabel"><img src='/images/logo.png' height='50' className='mb-2 p-0' />IBCID</h2>
+                                </div>
+                                <div type="button col-4" className="btn-close mt-2 text-danger" data-bs-dismiss="offcanvas" aria-label="Close"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offcanvas-body text-danger">
 
-                        
+
                         <div><Link to='/'>Home</Link></div>
                         <Link to='/Carsol'>Services</Link>
-                        
+
                         <div className="">About Us</div>
                         <div className="">Contact Us</div>
-   
-  </div>
-</div>
+
+                    </div>
+                </div>
 
 
             </div>

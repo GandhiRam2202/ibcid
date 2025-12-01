@@ -5,6 +5,7 @@ import '../Components/Homepage.css';
 import img1 from '/images/con.png'
 
 
+
 const Homepage = () => {
     const image = img1;
     return (
@@ -24,11 +25,11 @@ const Homepage = () => {
 
             {/*--------------------------------------------- */}
 
-            <div className="container-fluid" style={{ backgroundImage: `url(${image})`, backgroundSize: "cover", backgroundPosition: "center", height: "100%" }}>
+            
                 <div className="container mt-4">
                     <div className="col-sm-12">
                         <div className="row">
-                            <div className="col-sm-12 col-lg-6 text-white text-warp">
+                            <div className="col-sm-12 col-lg-6 text-warp">
                                 <h3 className='m-4'>
                                     Professional Private Investigation Services
                                 </h3>
@@ -55,16 +56,30 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="d-none d-lg-block col-lg-6">
-                                koks
+                            <div className="col-sm-12 col-lg-6">
+                                
+                               
+      <div className="frame-outline">
+        <div className="frame-bg d-flex justify-content-center align-items-center">
+          <img
+            src="/images/det.png"
+            alt=""
+            className="frame-img" style={{height:'550px'}}
+          />
+        </div>
+      </div>
+    </div>
+
+
+
                             </div>
                         </div>
 
 
 
                     </div>
-                </div>
-            </div>
+               
+            
 
 
         </>

@@ -7,3 +7,16 @@ font-size: 1.2rem;
 .loc{
     font-size: 1rem;
 }
+
+.nav-link-custom {
+  text-decoration: none;
+  color: #ffffff;   
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 'bolder';   
+  font-size: 25px;  
+}
+.nav-link-custom:hover {
+    
+  color: #5500ff;        /* optional hover color */
+}
+

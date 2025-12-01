@@ -5,3 +5,32 @@
     position: relative;
     bottom: 20px;
 }
+
+
+
+
+.frame-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #ffffff; /* Outer black background */
+}
+
+.frame-outline {
+  width: 100%;
+  padding: 0;
+  display: inline-block;
+}
+
+.frame-bg {
+  background: linear-gradient(-250deg, rgb(255, 255, 255) 50%, rgb(255, 0, 0) 50%);
+  padding: 50px;
+}
+
+.frame-img {
+  display: block;
+  box-shadow: -20px -20px 20px rgba(10,10,10,10);
+  height: auto;
+  border-radius: 6px;
+}
+
