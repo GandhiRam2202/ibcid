@@ -11,10 +11,10 @@ const Homepage = () => {
     return (
         <>
 
-            <div className="d-none mt-2 d-lg-block">
+            <div className="container d-none mt-2 d-lg-block">
                 <Carsol />
             </div>
-            <div className=" mt-2 d-lg-none d-sm-block">
+            <div className="container mt-2 d-lg-none d-sm-block">
                 <Carsol1 />
             </div>
 
