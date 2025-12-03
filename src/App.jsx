@@ -2,6 +2,7 @@ import React from 'react';
 import Home from "./Components/Home"
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from './Components/Navbar';
+import Aboutus from './Components/Aboutus';
 
 
 
@@ -15,6 +16,7 @@ const App = () => {
   {/* <CopyProtection/> */}
   <BrowserRouter>
        
+      
        <Navbar/>
         <Home/>
         </BrowserRouter>

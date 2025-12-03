@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Homepage from './Homepage';
-import Carsol1 from './Carsol1'
+import Aboutus from './Aboutus';
 
 const Home = () => {
     return (
@@ -12,7 +12,7 @@ const Home = () => {
                
                 <Routes>
                     <Route path='/' element={<Homepage />} />
-                    <Route path='/Carsol' element={<Carsol1 />} />
+                    <Route path='/Aboutus' element={<Aboutus />} />
                 </Routes>
             </div>
 

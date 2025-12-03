@@ -107,7 +107,7 @@ const Navbar = () => {
                                     <li><a class="dropdown-item" href="#">SPY Software</a></li>
                                 </ul>
                             </div>
-                            <div className="col-3"><Link className="nav-link-custom" to='/Carsol'>About Us</Link></div>
+                            <div className="col-3"><Link className="nav-link-custom" to='/Aboutus'>About Us</Link></div>
                             <div className="col-3"><Link className="nav-link-custom" to='/'>Contact Us</Link></div>
                         </div>
                     </div>
@@ -131,9 +131,10 @@ const Navbar = () => {
 
 
                         <div><Link to='/'>Home</Link></div>
-                        <Link to='/Carsol'>Services</Link>
+                        <div><Link to='/Carsol'>Services</Link></div>
+                        <div><Link to='/Aboutus'>About Us</Link></div>
 
-                        <div className="">About Us</div>
+                       
                         <div className="">Contact Us</div>
 
                     </div>
