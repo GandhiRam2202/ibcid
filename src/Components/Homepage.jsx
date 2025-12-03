@@ -29,7 +29,7 @@ const Homepage = () => {
                 <div className="container mt-4">
                     <div className="col-sm-12">
                         <div className="row">
-                            <div className="col-sm-12 col-lg-6 text-warp">
+                            <div className="col-sm-12 p-0 col-lg-6 text-warp">
                                 <h3 className='m-4'>
                                     Professional Private Investigation Services
                                 </h3>
@@ -39,16 +39,16 @@ const Homepage = () => {
 
                                 <p className='m-4'>
                                     Our approach is <b>methodical, efficient,</b> and <b>entirely confidential</b> giving you <b>trusted</b> results when you need them most.</p>
-                                <div className="col-sm-12 col-lg-12">
+                                <div className="container col-sm-12 col-lg-12">
                                     <div className="row">
-                                        <div className="col-sm-12 col-lg-6">
-                                            <div className="card m-4 text-danger text-center fw-bolder">
-                                                <img className="card-img-top" src='/images/evi.jpg' />
+                                        <div className="col-sm-12 p-0 col-lg-6">
+                                            <div className="card m-2  text-danger text-center fw-bolder" >
+                                                <img className="card-img-top" src='/images/evi.jpg'  />
                                                 Collect All Evidance
                                             </div></div>
-                                        <div className="col-sm-12 col-lg-6">
-                                            <div className="card m-4 text-danger text-center fw-bolder">
-                                                <img className="card-img-top" src='/images/inv.jpeg' />
+                                        <div className="col-sm-12 p-0 col-lg-6">
+                                            <div className="card m-2 text-danger text-center fw-bolder" >
+                                                <img className="card-img-top" src='/images/inv.jpeg'  />
                                                 Strong Investigation Team
                                             </div>
                                         </div>
@@ -56,7 +56,7 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-lg-6">
+                            <div className="col-sm-12 p-0 col-lg-6">
                                 
                                
       <div className="frame-outline">

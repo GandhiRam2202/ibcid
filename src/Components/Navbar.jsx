@@ -35,8 +35,8 @@ const Navbar = () => {
 
 
     return (
-        <>
-            <div className='container-fluid bg fixed-top'>
+        
+            <div className='container-fluid bg sticky-top'>
                 <div className="col-lg-12">
 
                     <div className="row">
@@ -146,7 +146,7 @@ const Navbar = () => {
 
 
 
-        </>
+        
     );
 };
 

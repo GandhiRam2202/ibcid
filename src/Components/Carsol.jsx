@@ -14,12 +14,12 @@ export default function ImageCarousel() {
     dots: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 1500,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    pauseOnHover: true,
+    pauseOnHover: false,
   };
 
   const slides = [
@@ -34,15 +34,15 @@ export default function ImageCarousel() {
     <div className="container">
       <Slider {...settings}>
         {slides.map((slide, i) => (
-          <div key={i} style={{ position: "relative" }}>
+          <div className="container" key={i} style={{ position: "relative" }}>
             <img
               src={slide.img}
               alt={`slide-${i}`}
               style={{
                 width: "100%",
                 height: "550px",
-                objectFit: "cover",
-                borderRadius: "12px",
+                
+                borderRadius: "25px",
               }}
             />
 

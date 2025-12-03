@@ -19,7 +19,7 @@ export default function ImageCarousel() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    pauseOnHover: true,
+    pauseOnHover: false,
   };
 
   const slides = [
@@ -34,7 +34,7 @@ export default function ImageCarousel() {
     <div className="container">
       <Slider {...settings}>
         {slides.map((slide, i) => (
-          <div key={i} style={{ position: "relative" }}>
+          <div className="container" key={i} style={{ position: "relative" }}>
             <img
               src={slide.img}
               alt={`slide-${i}`}
@@ -42,7 +42,7 @@ export default function ImageCarousel() {
                 width: "100%",
                 height: "500px",
                 
-                borderRadius: "12px",
+                borderRadius: "25px",
               }}
             />
 
