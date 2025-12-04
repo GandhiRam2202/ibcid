@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Aboutus = () => {
     return (
@@ -13,21 +14,109 @@ const Aboutus = () => {
             >
             </div>
 
-            <div className="container mt-4">
+            <div className="container-fluid mt-4">
                 <div className="row">
-                    <div className="col-sm-12 col-lg-6">
+                    <div className="col-sm-12 text-warp col-lg-6 d-flex-column justify-content-center align-items-center">
+                        <h2>About</h2>
+
+                            <h1 className='text-danger fw-bolder'>Welcome to IBCI Detective</h1>
+
+                            <p>At <span className='text-danger fw-bold'>IBCI Detective</span> Agency, our mission is to bring <b>clarity, confidence,</b> 
+                            and <b>peace</b> of mind to individuals and organizations facing uncertainty. 
+                            Whether it’s a <span className="bg-warning rounded-pill px-2">personal concern, a corporate risk, or a legal requirement</span>, 
+                            we provide discreet and reliable investigation services tailored to your needs.</p>
+
+                            <p>With a trained team of field investigators, analysts, and surveillance specialists, 
+                            we deliver accurate results through <span className='fw-bold'>modern techniques, ethical practices, and complete 
+                            confidentiality.</span> We operate across Chennai , offering services including
+                            <span className='fw-bolder'> background verification, evidence collection, tracking 
+                            and tracing, undercover assignments, surveillance operations, and legal support investigations.</span></p>
+
+                            <p>Our goal is simple — to protect your interests with professionalism, integrity, and 
+                            a commitment to absolute privacy. At <span className='text-danger fw-bold'>IBCI Detective</span> Agency, every case is handled 
+                            with <span className='fw-bold'> precision, transparency, and respect</span>, ensuring you get trustworthy information 
+                            when it matters most.</p>
+                            
 
 
+<div className="row">
+    <div className="col-lg-6 fw-bolder">
+        <ul class="list-unstyled">
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Tracking People
+  </li>
 
-                        <div className="d-flex justify-content-center ">
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Divorce
+  </li>
 
-                            <img
-                                src="/images/abbs1.png"
-                                alt=""
-                                style={{ height: '500px' }}
-                            />
-                        </div>
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Matrimonial Investigation
+  </li>
 
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Surveillance Investigation
+  </li>
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Insurance Investigation
+  </li>
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Crime Investigation
+  </li>
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Money Cheating
+  </li>
+</ul>
+
+</div>
+    <div className="col-lg-6 fw-bolder">     
+        <ul class="list-unstyled">
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Post-Matrimonial Services
+  </li>
+
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Pre-Matrimonial Services
+  </li>
+
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Private Detective Services
+  </li>
+
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Personal Detective Services
+  </li>
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Service Verification
+  </li>
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Document Verification
+  </li>
+  <li class="d-flex align-items-center mb-2">
+    <i class="bi bi-check text-danger me-2"></i>
+    Fradu & Cheating
+  </li>
+</ul>
+</div>
+<div className="col-sm-12">
+    <Link to="/Contactus" className="btn btn-danger">
+  Contact Us
+</Link>
+</div>
+</div>
 
 
 
@@ -40,8 +129,31 @@ const Aboutus = () => {
 
 
                     </div>
-                    <div className="col-sm-12 text-center col-lg-6">
-                        parthi
+                    <div className="col-sm-12 text-center d-none d-lg-block p-0 col-lg-6">
+                        <div className="frame-outline">
+                            <div className="frame-bg d-flex justify-content-center align-items-center">
+                                <img
+                                    src="/images/abbs2.png"
+                                    alt=""
+                                    className="frame-img" style={{ height: '700px' }}
+                                />
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div className="col-sm-12 text-center d-block d-lg-none p-0 col-lg-6">
+                        <div className="frame-outline">
+                            <div className="frame-bg d-flex justify-content-center align-items-center">
+                                <img
+                                    src="/images/abbs2.png"
+                                    alt=""
+                                    className="frame-img" style={{ height: '500px' }}
+                                />
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>

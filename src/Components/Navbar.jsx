@@ -108,7 +108,7 @@ const Navbar = () => {
                                 </ul>
                             </div>
                             <div className="col-3"><Link className="nav-link-custom" to='/Aboutus'>About Us</Link></div>
-                            <div className="col-3"><Link className="nav-link-custom" to='/'>Contact Us</Link></div>
+                            <div className="col-3"><Link className="nav-link-custom" to='/Contactus'>Contact Us</Link></div>
                         </div>
                     </div>
 
@@ -133,9 +133,10 @@ const Navbar = () => {
                         <div><Link to='/'>Home</Link></div>
                         <div><Link to='/Carsol'>Services</Link></div>
                         <div><Link to='/Aboutus'>About Us</Link></div>
+                        <div><Link to='/Contactus'>Contact Us</Link></div>
 
                        
-                        <div className="">Contact Us</div>
+                        
 
                     </div>
                 </div>

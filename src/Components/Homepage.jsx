@@ -26,7 +26,7 @@ const Homepage = () => {
             {/*--------------------------------------------- */}
 
             
-                <div className="container mt-4">
+                <div className="container-fluid mt-4">
                     <div className="col-sm-12">
                         <div className="row">
                             <div className="col-sm-12 p-0 col-lg-6 text-warp">
