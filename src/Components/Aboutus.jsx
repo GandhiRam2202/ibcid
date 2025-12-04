@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-const Aboutus = () => {const handleWap = () => {
+const Aboutus = () => {
+    const handleWap = () => {
         window.open(
             "https://wa.me/+918667403826?text=Hello%20I%20want%20to%20know%20more",
             "_blank"
@@ -142,19 +143,19 @@ const Aboutus = () => {const handleWap = () => {
                                     Contact Us
                                 </Link>
                             </div>
-                             <div className="col-sm-6 text-center d-block d-lg-none">
+                            <div className="col-sm-6 text-center d-block d-lg-none">
                                 <Link to="/Contactus" className="btn btn-danger">
                                     Contact Us
                                 </Link>
                             </div>
-                                <div className="col-sm-6 text-center">
-                        <div className="row">
-                            <div className="col-3 text-danger mt-2 p-0" onClick={handleOpenMap}><i className="bi bi-geo-alt-fill"></i></div>
-                            <div className="col-3 text-danger mt-2 p-0" onClick={handleCall}><i className="bi bi-telephone-fill"></i></div>
-                            <div className="col-3 text-danger mt-2 p-0" onClick={handleMail}><i className="bi bi-envelope-fill"></i></div>
-                            <div className="col-3 text-danger mt-2 p-0" onClick={handleWap}><i class="bi bi-whatsapp"></i></div>
-                        </div>
-                    </div>
+                            <div className="col-sm-6 text-center">
+                                <div className="row">
+                                    <div className="col-3 text-danger mt-2 p-0" onClick={handleOpenMap}><i className="bi bi-geo-alt-fill"></i></div>
+                                    <div className="col-3 text-danger mt-2 p-0" onClick={handleCall}><i className="bi bi-telephone-fill"></i></div>
+                                    <div className="col-3 text-danger mt-2 p-0" onClick={handleMail}><i className="bi bi-envelope-fill"></i></div>
+                                    <div className="col-3 text-danger mt-2 p-0" onClick={handleWap}><i class="bi bi-whatsapp"></i></div>
+                                </div>
+                            </div>
                         </div>
 
 
@@ -199,18 +200,75 @@ const Aboutus = () => {const handleWap = () => {
             </div>
 
 
-<div id="autoText" class="carousel slide" data-bs-ride="carousel" data-bs-interval="500">
-  <div class="txtcra carousel-inner text-white text-center p-3">
-    <div class="carousel-item active"><p class="fs-4 mt-3">Confidential Investigation Expertise</p></div>
-    <div class="carousel-item"><p class="fs-4 mt-3">Professional Detective Team</p></div>
-    <div class="carousel-item"><p class="fs-4 mt-3">Fast & Accurate Results</p></div>
-  </div>
+            <div id="autoText" class="d-block d-lg-none carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="txtcra carousel-inner text-white text-center p-3">
+                    <div class="carousel-item active"><p class="fs-4 mt-3">Your Peace, Our Mission</p></div>
+                    <div class="carousel-item"><p class="fs-4 mt-3">Justice Begins With Facts</p></div>
+                    <div class="carousel-item"><p class="fs-4 mt-3">We See What Others Miss</p></div>
+                    <div class="carousel-item"><p class="fs-4 mt-3">Truth Delivered With Discretion</p></div>
+                    <div class="carousel-item"><p class="fs-4 mt-3">Clarity Behind Every Case</p></div>
+                    <div class="carousel-item"><p class="fs-4 mt-3">Truth leaves footprints</p></div>
+                    <div class="carousel-item"><p class="fs-4 mt-3">Your truth. Our mission</p></div>
+                    <div class="carousel-item"><p class="fs-4 mt-3">Evidence never lies</p></div>
+                    <div class="carousel-item"><p class="fs-4 mt-3">We See What Others Miss</p></div>
+                    <div class="carousel-item"><p class="fs-4 mt-3">Tracking Truth Relentlessly</p></div>
+                    <div class="carousel-item"><p class="fs-4 mt-3">Investigating Beyond Limits</p></div>
+                </div>
+            </div>
+
+
+
+            <div id="autoText" 
+     className="carousel slide d-none d-lg-block" 
+     data-bs-ride="carousel" 
+     data-bs-interval="2000">
+
+    <div className="txtcra carousel-inner text-white text-center p-3">
+
+        {/* Slide 1 */}
+        <div className="carousel-item active">
+            <div className="row">
+                <div className="col-4 fs-4 mt-3">Your Peace, Our Mission</div>
+                <div className="col-4 fs-4 mt-3">Justice Begins With Facts</div>
+                <div className="col-4 fs-4 mt-3">We See What Others Miss</div>
+            </div>
+        </div>
+
+        {/* Slide 2 */}
+        <div className="carousel-item">
+            <div className="row">
+                <div className="col-6 fs-4 mt-3">Truth Delivered With Discretion</div>
+                <div className="col-6 fs-4 mt-3">Clarity Behind Every Case</div>
+            </div>
+        </div>
+
+
+          {/* Slide 3 */}
+        <div className="carousel-item">
+            <div className="row">
+                <div className="col-4 fs-4 mt-3">Truth leaves footprints</div>
+                <div className="col-4 fs-4 mt-3">Your truth. Our mission</div>
+                <div className="col-4 fs-4 mt-3">Evidence never lies</div>
+            </div>
+        </div>
+
+
+          {/* Slide 4 */}
+        <div className="carousel-item">
+            <div className="row">
+                <div className="col-6 fs-4 mt-3">Tracking Truth Relentlessly</div>
+                <div className="col-6 fs-4 mt-3">Investigating Beyond Limits</div>
+            </div>
+        </div>
+
+
+
+    </div>
 </div>
 
 
 
 
-           
 
 
         </>
