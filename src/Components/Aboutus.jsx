@@ -199,6 +199,17 @@ const Aboutus = () => {const handleWap = () => {
             </div>
 
 
+<div id="autoText" class="carousel slide" data-bs-ride="carousel" data-bs-interval="500">
+  <div class="txtcra carousel-inner text-white text-center p-3">
+    <div class="carousel-item active"><p class="fs-4 mt-3">Confidential Investigation Expertise</p></div>
+    <div class="carousel-item"><p class="fs-4 mt-3">Professional Detective Team</p></div>
+    <div class="carousel-item"><p class="fs-4 mt-3">Fast & Accurate Results</p></div>
+  </div>
+</div>
+
+
+
+
            
 
 
