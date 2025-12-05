@@ -506,15 +506,7 @@ const Aboutus = () => {
 
 
 
-<div className="container-fluid">
-<div className="col-sm-12">
-    <div className="row d-flex justify-content-center">
-        <div className="col-sm-12 col-lg-4">parthi</div>
-        <div className="col-sm-12 col-lg-4">Parthi</div>
-        <div className="col-sm-12 col-lg-4">Parthi</div>
-    </div>
-</div>
-</div>
+
 
 
 

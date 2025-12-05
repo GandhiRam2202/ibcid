@@ -9,10 +9,6 @@ import img1 from '/images/con.png'
 const Homepage = () => {
     const image = img1;
 
-    const handleCall = () => {
-        window.location.href = "tel:+918667403826"; // your phone number
-
-    };
 
     return (
         <>
