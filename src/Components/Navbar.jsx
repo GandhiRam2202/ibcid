@@ -116,24 +116,27 @@ const Navbar = () => {
 
                 {/*------offcanvas-------------*/}
 
-                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+               <div class="offcanvas offcanvas-start myCanvas" data-bs-scroll="true"
+     tabIndex="-1" id="offcanvasWithBothOptions"
+     aria-labelledby="offcanvasWithBothOptionsLabel">
+
                     <div class="offcanvas-header">
                         <div className="col-12">
                             <div className="row">
                                 <div className="col-10">
                                     <h2 className="offcanvas-title text-center text-danger" id="offcanvasWithBothOptionsLabel"><img src='/images/logo.png' height='50' className='mb-2 p-0' />IBCID</h2>
                                 </div>
-                                <div type="button col-4" className="btn-close mt-2 text-danger" data-bs-dismiss="offcanvas" aria-label="Close"></div>
+                                <div type="button col-4" className="btn-close btn-close-white mt-2 text-danger" data-bs-dismiss="offcanvas" aria-label="Close"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="offcanvas-body text-danger">
+                    <div class="offcanvas-body text-center fw-bold">
 
 
-                        <div><Link to='/'>Home</Link></div>
-                        <div><Link to='/Carsol'>Services</Link></div>
-                        <div><Link to='/Aboutus'>About Us</Link></div>
-                        <div><Link to='/Contactus'>Contact Us</Link></div>
+                        <div data-bs-dismiss="offcanvas"><Link className='nav-link-custom' to='/'>Home</Link></div>
+                        <div data-bs-dismiss="offcanvas"><Link className='nav-link-custom' to='/Carsol'>Services</Link></div>
+                        <div data-bs-dismiss="offcanvas"><Link className='nav-link-custom' to='/Aboutus'>About Us</Link></div>
+                        <div data-bs-dismiss="offcanvas"><Link className='nav-link-custom' to='/Contactus'>Contact Us</Link></div>
 
                        
                         
