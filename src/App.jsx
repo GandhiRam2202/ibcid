@@ -2,7 +2,7 @@ import React from 'react';
 import Home from "./Components/Home"
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from './Components/Navbar';
-import Aboutus from './Components/Aboutus';
+import ScrollToTop from './Components/ScrollToTop';
 
 
 
@@ -16,7 +16,7 @@ const App = () => {
   {/* <CopyProtection/> */}
   <BrowserRouter>
        
-      
+      <ScrollToTop />
        <Navbar/>
         <Home/>
         </BrowserRouter>
