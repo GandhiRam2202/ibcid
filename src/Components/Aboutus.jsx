@@ -457,8 +457,8 @@ const Aboutus = () => {
                             Need Assistance?
                         </div>
                         <div className="d-flex justify-content-center text-center text-white mt-4 p-0" onClick={handleCall}>
-                            <div className="col-6">
-                                <i className="bg rounded-3 p-3 bi bi-telephone-fill fw-bold">
+                            <div className="col-6 bg rounded-3">
+                                <i className="p-0 bi bi-telephone-fill">
                                     +(91)8667403826
                                 </i>
                             </div>
