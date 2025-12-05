@@ -3,6 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import Homepage from './Homepage';
 import Aboutus from './Aboutus';
 import Contactus from './Contactus';
+import Footer from './Footer';
+
 
 const Home = () => {
     return (
@@ -17,6 +19,7 @@ const Home = () => {
                     <Route path='/Contactus' element={<Contactus />} />
                 </Routes>
             </div>
+            <Footer/>
 
         </>
     );

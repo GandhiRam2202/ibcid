@@ -42,7 +42,6 @@ export default function ImageCarousel() {
                 width: "100%",
                 height: "550px",
                 
-                borderRadius: "25px",
               }}
             />
 

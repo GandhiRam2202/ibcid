@@ -31,17 +31,54 @@ const Aboutus = () => {
 
     return (
         <>
-            <div className='container-fluid'
+             <div
+                className="container-fluid p-0"
                 style={{
-                    backgroundImage: "url('/images/abbg.png')",
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat',
-                    height: '500px'   // change height as needed
+                    backgroundImage: "url('/images/abbsw.jpeg')",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    height: "300px",
                 }}
             >
+                <div
+                    className="container-fluid p-0 h-100 d-flex justify-content-center align-items-center"
+                    style={{
+                        background: "rgba(0, 0, 0, 0.5)",
+                    }}
+                >
+                    <div className="text-center">
+                        <div
+                            style={{
+                                fontWeight: "bold",
+                                fontSize: "3rem",
+                                color: "white",
+                            }}
+                        >
+                            Welcome to IBCI Detective
+                        </div>
+
+                        <div
+                            style={{
+                                fontWeight: "bold",
+                                fontSize: "1.2rem",
+                                color: "white",
+                            }}
+                        >
+                            Need Assistance?
+                        </div>
+                        <div className="d-flex justify-content-center text-center text-white mt-4 p-0" onClick={handleCall}>
+                            <div className="col-6 bg rounded-3">
+                                <i className="p-0 bi bi-telephone-fill">
+                                    +(91)8667403826
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div className="container-fluid mt-2">
+            <div className="container mt-2">
                 <div className="row">
                     <div className="col-sm-12 text-warp col-lg-6 d-flex-column mt-2 justify-content-center align-items-center">
                         <h2>About</h2>
@@ -205,11 +242,11 @@ const Aboutus = () => {
 
 
             <div id="autoText"
-                className="carousel slide d-none d-lg-block"
+                className="carousel mt-2 slide d-none d-lg-block"
                 data-bs-ride="carousel"
                 data-bs-interval="2000">
 
-                <div className="txtcra carousel-inner text-white text-center p-3">
+                <div className="txtcra carousel-inner text-white text-center p-4">
 
                     {/* Slide 1 */}
                     <div className="carousel-item active">
@@ -255,7 +292,7 @@ const Aboutus = () => {
 
 
 
-            <div className="container-fluid mt-0">
+            <div className="container mt-2">
                 <div className="row">
                     <div className="col-sm-12 text-warp col-lg-6 d-flex-column mt-0 justify-content-center align-items-center">
                         <h2>Why Choose Us</h2>
@@ -468,6 +505,16 @@ const Aboutus = () => {
             </div>
 
 
+
+<div className="container-fluid">
+<div className="col-sm-12">
+    <div className="row d-flex justify-content-center">
+        <div className="col-sm-12 col-lg-4">parthi</div>
+        <div className="col-sm-12 col-lg-4">Parthi</div>
+        <div className="col-sm-12 col-lg-4">Parthi</div>
+    </div>
+</div>
+</div>
 
 
 
