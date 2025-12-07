@@ -145,7 +145,7 @@ const Aboutus = () => {
                                     </li>
                                     <li class="d-flex align-items-center mb-2">
                                         <i class="bi bi-check text-danger me-2"></i>
-                                        Fradu & Cheating
+                                        Fraud & Cheating
                                     </li>
                                 </ul>
                             </div>
