@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { handleOpenMap ,handleCall, handleMail, handleWap } from './Contact';
 import BgImage from './BgImage';
+import Bgimg from './Bgimg';
 
 
 const Aboutus = () => {
@@ -390,7 +391,7 @@ const Aboutus = () => {
 
 
 
-           <BgImage/>
+           <Bgimg/>
 
 
 

@@ -40,5 +40,31 @@
     font-weight: bold;
     text-shadow:
         4px 4px 8px rgba(10, 10, 10, 10),
-        -1px -1px 1px rgba(10, 0, 0, 0.3);
+        -1px -1px 1px rgba(10, 0, 0, 0.797);
+}
+
+.font{
+font-family: 'Times New Roman', Times, serif;
+color: red;
+}
+
+.font1{
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+}
+.bi-map,
+.bi-envelope,
+.bi-telephone,
+.whatsapp{
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+color: red;
+}
+
+.crdtxt{
+  font-size: 15px;
+}
+.crd{
+  border-radius: 25px;
+  border:solid red 1px;
 }

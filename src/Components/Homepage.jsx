@@ -3,7 +3,6 @@ import Carsol from './Carsol'
 import Carsol1 from './Carsol1'
 import '../Components/Homepage.css';
 import img1 from '/images/con.png'
-
 import BgImage from './BgImage';
 
 
@@ -91,7 +90,7 @@ const Homepage = () => {
                                     <img
                                         src="/images/home.png"
                                         alt=""
-                                        className="frame-img" style={{ height: '400px' }}
+                                        className="frame-img" style={{ height: '300px' }}
                                     />
                                 </div>
                             </div>
