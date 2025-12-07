@@ -200,7 +200,7 @@ const Aboutus = () => {
             </div>
 
 
-            <div id="autoText" class="d-block d-lg-none carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-swipe="true" data-bs-pause="false">
+            <div id="autoText" class="d-block d-lg-none carousel slide" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="2000" data-bs-swipe="true" data-bs-pause="false">
                 <div class="txtcra carousel-inner text-white text-center p-3">
                     <div class="carousel-item active"><p class="fs-4 mt-3">Your Peace, Our Mission</p></div>
                     <div class="carousel-item"><p class="fs-4 mt-3">Justice Begins With Facts</p></div>
