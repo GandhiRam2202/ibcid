@@ -164,7 +164,7 @@ const Aboutus = () => {
                                     <div className ="col-3 text-danger mt-2 p-0" onClick={handleOpenMap}><i className ="bi bi-geo-alt-fill"></i></div>
                                     <div className ="col-3 text-danger mt-2 p-0" onClick={handleCall}><i className ="bi bi-telephone-fill"></i></div>
                                     <div className ="col-3 text-danger mt-2 p-0" onClick={handleMail}><i className ="bi bi-envelope-fill"></i></div>
-                                    <div className ="col-3 text-danger mt-2 p-0" onClick={handleWap}><i class ="bi bi-whatsapp"></i></div>
+                                    <div className ="col-3 text-danger mt-2 p-0" onClick={handleWap}><i className="bi bi-whatsapp"></i></div>
                                 </div>
                             </div>
                         </div>

@@ -1,32 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { handleOpenMap ,handleCall, handleMail, handleWap } from './Contact';
 
 const Footer = () => {
-    const handleWap = () => {
-        window.open(
-            "https://wa.me/+918667403826?text=Hello%20I%20want%20to%20know%20more",
-            "_blank"
-        );
-    };
-
-
-    const handleOpenMap = () => {
-        window.open(
-            "https://maps.app.goo.gl/aFxAg3V9eNXRsUM67", // replace with your lat/long or place
-            "_blank"
-        );
-    };
-
-
-    const handleMail = () => {
-        window.location.href = "mailto:ibcidetective22@gmail.com"; // your mail id
-    };
-
-    const handleCall = () => {
-        window.location.href = "tel:+918667403826"; // your phone number
-
-    };
-
+   
     return (
         <>
             <div
@@ -63,7 +40,7 @@ const Footer = () => {
                                         <div className="col-3 p-0" onClick={handleOpenMap}><i className="bi bi-geo-alt-fill"></i></div>
                                         <div className="col-3 p-0" onClick={handleCall}><i className="bi bi-telephone-fill"></i></div>
                                         <div className="col-3 p-0" onClick={handleMail}><i className="bi bi-envelope-fill"></i></div>
-                                        <div className="col-3 p-0" onClick={handleWap}><i class="bi bi-whatsapp"></i></div>
+                                        <div className="col-3 p-0" onClick={handleWap}><i className="bi bi-whatsapp"></i></div>
                                     </div>
                                 </div>
                             </div>
@@ -74,13 +51,13 @@ const Footer = () => {
                             <div className="col-sm-12 mt-3 col-lg-3">
                                 <h4>Quick Links</h4>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/'><i class="text-danger bi bi-arrow-right"></i> Home</Link>
+                                    <Link className="text-decoration-none text-white" to='/'><i className="text-danger bi bi-arrow-right"></i> Home</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Aboutus'><i class="text-danger bi bi-arrow-right"></i> About Us</Link>
+                                    <Link className="text-decoration-none text-white" to='/Aboutus'><i className="text-danger bi bi-arrow-right"></i> About Us</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Contactus'><i class="text-danger bi bi-arrow-right"></i> Contact Us</Link>
+                                    <Link className="text-decoration-none text-white" to='/Contactus'><i className="text-danger bi bi-arrow-right"></i> Contact Us</Link>
                                 </div>
                             </div>
 
@@ -90,22 +67,22 @@ const Footer = () => {
                                 <h4>Our Services</h4>
 
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/'><i class="text-danger bi bi-arrow-right"></i> Personal Services</Link>
+                                    <Link className="text-decoration-none text-white" to='/'><i className="text-danger bi bi-arrow-right"></i> Personal Services</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Aboutus'><i class="text-danger bi bi-arrow-right"></i> Corporate Services</Link>
+                                    <Link className="text-decoration-none text-white" to='/Aboutus'><i className="text-danger bi bi-arrow-right"></i> Corporate Services</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Contactus'><i class="text-danger bi bi-arrow-right"></i> Special Services</Link>
+                                    <Link className="text-decoration-none text-white" to='/Contactus'><i className="text-danger bi bi-arrow-right"></i> Special Services</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Contactus'><i class="text-danger bi bi-arrow-right"></i> Legal Services</Link>
+                                    <Link className="text-decoration-none text-white" to='/Contactus'><i className="text-danger bi bi-arrow-right"></i> Legal Services</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Contactus'><i class="text-danger bi bi-arrow-right"></i> Spy Cameras</Link>
+                                    <Link className="text-decoration-none text-white" to='/Contactus'><i className="text-danger bi bi-arrow-right"></i> Spy Cameras</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Contactus'><i class="text-danger bi bi-arrow-right"></i> Spy Softwares</Link>
+                                    <Link className="text-decoration-none text-white" to='/Contactus'><i className="text-danger bi bi-arrow-right"></i> Spy Softwares</Link>
                                 </div>
 
                             </div>
@@ -127,7 +104,7 @@ const Footer = () => {
                                     <p className='m-0'>Purushothaman Nagar, </p><p className='m-0'>Chromepet, Chennai - 600 044.</p></div>
                                 <div className="col-12 p-1" onClick={handleMail}><i className="bi bi-envelope-fill"></i> ibcidetective22@gmail.com</div>
                                 <div className="col-12" onClick={handleCall}><i className="bi bi-telephone-fill"></i> (+91)8667403826</div>
-                                <div className="col-12 p-1" onClick={handleWap}><i class="bi bi-whatsapp"> Whatsapp</i></div>
+                                <div className="col-12 p-1" onClick={handleWap}><i className="bi bi-whatsapp"> Whatsapp</i></div>
                             </div>
                         </div>
                     </div>

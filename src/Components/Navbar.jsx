@@ -27,7 +27,7 @@ const Navbar = () => {
                                 <div className="col-11">
                                     <img src='/images/logo.png' height='50' className='mb-2 p-0' />IBCID</div>
                                 <div className="col-1 p-0">
-                                    <i class="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></i></div>
+                                    <i className="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></i></div>
                             </div>
                         </div>
 
@@ -63,7 +63,7 @@ const Navbar = () => {
                             <div className="col-3 p-0" onClick={handleOpenMap}><i className="bi bi-geo-alt-fill"></i></div>
                             <div className="col-3 p-0" onClick={handleCall}><i className="bi bi-telephone-fill"></i></div>
                             <div className="col-3 p-0" onClick={handleMail}><i className="bi bi-envelope-fill"></i></div>
-                            <div className="col-3 p-0" onClick={handleWap}><i class="bi bi-whatsapp"></i></div>
+                            <div className="col-3 p-0" onClick={handleWap}><i className="bi bi-whatsapp"></i></div>
                         </div>
                     </div>
 
@@ -72,16 +72,16 @@ const Navbar = () => {
                             <div className="col-3"><Link className="nav-link-custom" to='/'>Home</Link></div>
 
                             <div className="col-3 d-flex justify-content-center dropdown">
-                                <div class="dropdown-toggle nav-link-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <div className="dropdown-toggle nav-link-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Our Services
                                 </div>
-                                <ul class="col-6 dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Personal Sevices</a></li>
-                                    <li><a class="dropdown-item" href="#">Corporate Services</a></li>
-                                    <li><a class="dropdown-item" href="#">Legal Services</a></li>
-                                    <li><a class="dropdown-item" href="#">Special Services</a></li>
-                                    <li><a class="dropdown-item" href="#">SPY Camera</a></li>
-                                    <li><a class="dropdown-item" href="#">SPY Software</a></li>
+                                <ul className="col-6 dropdown-menu">
+                                    <li><a className="dropdown-item" href="#">Personal Sevices</a></li>
+                                    <li><a className="dropdown-item" href="#">Corporate Services</a></li>
+                                    <li><a className="dropdown-item" href="#">Legal Services</a></li>
+                                    <li><a className="dropdown-item" href="#">Special Services</a></li>
+                                    <li><a className="dropdown-item" href="#">SPY Camera</a></li>
+                                    <li><a className="dropdown-item" href="#">SPY Software</a></li>
                                 </ul>
                             </div>
                             <div className="col-3"><Link className="nav-link-custom" to='/Aboutus'>About Us</Link></div>
@@ -93,11 +93,11 @@ const Navbar = () => {
 
                 {/*------offcanvas-------------*/}
 
-               <div class="offcanvas offcanvas-start myCanvas" data-bs-scroll="true"
+               <div className="offcanvas offcanvas-start myCanvas" data-bs-scroll="true"
      tabIndex="-1" id="offcanvasWithBothOptions"
      aria-labelledby="offcanvasWithBothOptionsLabel">
 
-                    <div class="offcanvas-header">
+                    <div className="offcanvas-header">
                         <div className="col-12">
                             <div className="row">
                                 <div className="col-10">
@@ -107,7 +107,7 @@ const Navbar = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="offcanvas-body text-center fw-bold">
+                    <div className="offcanvas-body text-center fw-bold">
 
 
                         <div data-bs-dismiss="offcanvas"><Link className='nav-link-custom' to='/'>Home</Link></div>
