@@ -32,7 +32,7 @@ const Homepage = () => {
 
 
             <div className='mt-4 container'>
-                <h2 className='text-danger text-center'>About IBCIDetective</h2>
+                <h2 className='text-danger text-center'>About IBCID</h2>
             </div>
 
             {/*--------------------------------------------- */}
