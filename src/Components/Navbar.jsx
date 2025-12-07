@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { handleCall, handleMail, handleWap, handleOpenMap } from './Contact';
 import './Navbar.css';
 
 
@@ -7,31 +8,7 @@ import './Navbar.css';
 
 const Navbar = () => {
 
-    const handleWap = () => {
-        window.open(
-            "https://wa.me/+918667403826?text=Hello%20I%20want%20to%20know%20more",
-            "_blank"
-        );
-    };
 
-
-    const handleOpenMap = () => {
-        window.open(
-            "https://maps.app.goo.gl/aFxAg3V9eNXRsUM67", // replace with your lat/long or place
-            "_blank"
-        );
-    };
-
-
-    const handleMail = () => {
-        window.location.href = "mailto:ibcidetective22@gmail.com"; // your mail id
-    };
-
-
-    const handleCall = () => {
-        window.location.href = "tel:+918667403826"; // your phone number
-
-    };
 
 
     return (

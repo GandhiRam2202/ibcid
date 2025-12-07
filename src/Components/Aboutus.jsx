@@ -1,33 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { handleOpenMap ,handleCall, handleMail, handleWap } from './Contact';
 
 
 const Aboutus = () => {
-    const handleWap = () => {
-        window.open(
-            "https://wa.me/+918667403826?text=Hello%20I%20want%20to%20know%20more",
-            "_blank"
-        );
-    };
-
-
-    const handleOpenMap = () => {
-        window.open(
-            "https://maps.app.goo.gl/aFxAg3V9eNXRsUM67", // replace with your lat/long or place
-            "_blank"
-        );
-    };
-
-
-    const handleMail = () => {
-        window.location.href = "mailto:ibcidetective22@gmail.com"; // your mail id
-    };
-
-
-    const handleCall = () => {
-        window.location.href = "tel:+918667403826"; // your phone number
-
-    };
+   
 
     return (
         <>
@@ -223,7 +200,7 @@ const Aboutus = () => {
             </div>
 
 
-            <div id="autoText" class="d-block d-lg-none carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div id="autoText" class="d-block d-lg-none carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-swipe="true">
                 <div class="txtcra carousel-inner text-white text-center p-3">
                     <div class="carousel-item active"><p class="fs-4 mt-3">Your Peace, Our Mission</p></div>
                     <div class="carousel-item"><p class="fs-4 mt-3">Justice Begins With Facts</p></div>
@@ -389,7 +366,7 @@ const Aboutus = () => {
                                     </li>
                                     <li class="d-flex align-items-center mb-2">
                                         <i class="bi bi-check text-danger me-2"></i>
-                                        Fradu & Cheating
+                                        Fraud & Cheating
                                     </li>
                                 </ul>
                             </div>

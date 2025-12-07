@@ -139,7 +139,7 @@ const Footer = () => {
                             <div className='col-sm-12 col-lg-6 mb-2 text-white'>Copyright 2025 by IBCID-Detectives All Rights Reserved</div>
                             <div className='col-sm-12 col-lg-6 text-white'
                                 onClick={() => window.open("https://www.linkedin.com/in/parthiban-ramachandiran/", "_blank")}
-                                style={{ cursor: "pointer" }}
+                              
                             >
                                 Designed And Developed
                             </div>
