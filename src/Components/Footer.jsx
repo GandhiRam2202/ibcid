@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { handleOpenMap ,handleCall, handleMail, handleWap } from './Contact';
+import { handleOpenMap, handleCall, handleMail, handleWap } from './Contact';
 
 const Footer = () => {
-   
+
     return (
         <>
             <div
@@ -35,16 +35,17 @@ const Footer = () => {
                                     Litigation Support
                                 </p>
 
-                                <div className="col-sm-12">
-                                    <div className="row text-center">
-                                        <div className="col-3 p-0" onClick={handleOpenMap}><i className="bi bi-geo-alt-fill"></i></div>
-                                        <div className="col-3 p-0" onClick={handleCall}><i className="bi bi-telephone-fill"></i></div>
-                                        <div className="col-3 p-0" onClick={handleMail}><i className="bi bi-envelope-fill"></i></div>
-                                        <div className="col-3 p-0" onClick={handleWap}><i className="bi bi-whatsapp"></i></div>
+                                <div className="container">
+                                    <div className="col-sm-12">
+                                        <div className="row text-center">
+                                            <div className="col-3 p-0" onClick={handleOpenMap}><i className="bi bi-geo-alt-fill"></i></div>
+                                            <div className="col-3 p-0" onClick={handleCall}><i className="bi bi-telephone-fill"></i></div>
+                                            <div className="col-3 p-0" onClick={handleMail}><i className="bi bi-envelope-fill"></i></div>
+                                            <div className="col-3 p-0" onClick={handleWap}><i className="bi bi-whatsapp"></i></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
 
 
 
@@ -116,9 +117,10 @@ const Footer = () => {
                             <div className='col-sm-12 col-lg-6 mb-2 text-white'>Copyright 2025 by IBCID-Detectives All Rights Reserved</div>
                             <div className='col-sm-12 col-lg-6 text-white'
                                 onClick={() => window.open("https://www.linkedin.com/in/parthiban-ramachandiran/", "_blank")}
-                              
+
                             >
-                                Designed And Developed
+                                <p className='mb-0'>Designed And Developed</p>
+                                <p className='mb-0'>GandhiRamParthi</p>
                             </div>
 
                             <hr className='text-white mt-2' />

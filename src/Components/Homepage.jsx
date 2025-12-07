@@ -3,7 +3,8 @@ import Carsol from './Carsol'
 import Carsol1 from './Carsol1'
 import '../Components/Homepage.css';
 import img1 from '/images/con.png'
-import { handleOpenMap, handleCall, handleMail, handleWap } from './Contact';
+
+import BgImage from './BgImage';
 
 
 
@@ -103,54 +104,9 @@ const Homepage = () => {
 
 
             </div>
-            <div
-                className="container-fluid p-0"
-                style={{
-                    backgroundImage: "url('/images/abbsw.jpeg')",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    height: "300px",
-                }}
-            >
-                <div
-                    className="container-fluid p-0 h-100 d-flex justify-content-center align-items-center"
-                    style={{
-                        background: "rgba(0, 0, 0, 0.5)",
-                    }}
-                >
-                    <div className="text-center">
-                        <div
-                            style={{
-                                fontWeight: "bold",
-                                fontSize: "3rem",
-                                color: "white",
-                            }}
-                        >
-                            Welcome to IBCI Detective
-                        </div>
+            
 
-                        <div
-                            style={{
-                                fontWeight: "bold",
-                                fontSize: "1.2rem",
-                                color: "white",
-                            }}
-                        >
-                            Need Assistance?
-                        </div>
-                        <div className="d-flex justify-content-center text-center text-white mt-4 p-0" onClick={handleCall}>
-                            <div className="col-6 bg rounded-3">
-                                <i className="p-0 bi bi-telephone-fill">
-                                    (+91)8667403826
-                                </i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
+<BgImage/>
 
 
         </>

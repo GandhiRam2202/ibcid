@@ -1,10 +1,11 @@
 import React from 'react';
+import BgImage from './BgImage';
 
 const Contactus = () => {
     return (
-        <div>
-          contact us  
-        </div>
+        <>
+          <BgImage/>
+        </>
     );
 };
 
