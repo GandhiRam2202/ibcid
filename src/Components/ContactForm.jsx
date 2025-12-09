@@ -16,23 +16,24 @@ const validationSchema = Yup.object({
 const ContactForm = () => {
     return (
         <div className="container mt-4 p-0">
-            <h3 className="mb-3 fw-bold font text-center">Send Us E-Mail</h3>
 
             <Formik
                 initialValues={{ name: "", phone: "", email: "", message: "" }}
                 validationSchema={validationSchema}
                 onSubmit={(values, { resetForm }) => {
-                    const cleaned = {
+                    const data = {
                         ...values,
                         message: values.message.replace(/\n/g, " ")
                     };
-
+                    console.log(data);
+                    
                     alert("Form Submitted Successfully!");
                     resetForm();
                 }}
             >
                 {() => (
-                    <Form className="m-4">
+                    <Form className="border p-2 shadow">
+                        <h3 className="mb-3 fw-bold font text-center">Send Us E-Mail</h3>
 
                         {/* Name */}
                         <div className="mb-3">
