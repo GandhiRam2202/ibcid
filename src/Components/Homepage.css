@@ -6,9 +6,6 @@
     bottom: 20px;
 }
 
-
-
-
 .frame-container {
   width: 100%;
   display: flex;
@@ -52,6 +49,7 @@ color: red;
 font-family: 'Times New Roman', Times, serif;
 font-size: 50px;
 }
+
 .bi-map,
 .bi-envelope,
 .bi-telephone,
@@ -64,7 +62,19 @@ color: red;
 .crdtxt{
   font-size: 15px;
 }
+
 .crd{
   border-radius: 25px;
   border:solid red 1px;
+}
+
+
+.biho:hover{
+   color: red;
+}
+
+
+.fnt{
+font-family: 'Times New Roman', Times, serif;
+color: white;
 }

@@ -83,7 +83,7 @@ const Contactus = () => {
 
 
 
-      <div className="container" >
+      <div className="container border border-1 shadow-lg" >
         <div className="col-sm-12">
           <div className="row">
             <div className="col-sm-12 p-0 col-lg-6">
@@ -137,10 +137,10 @@ const Contactus = () => {
                     <div className="container mt-3 text-white">
                       <div className="col-sm-12">
                         <div className="row text-center">
-                          <div className="col-3 p-0" onClick={handleOpenMap}><i className="bi bi-geo-alt-fill"></i></div>
-                          <div className="col-3 p-0" onClick={handleCall}><i className="bi bi-telephone-fill"></i></div>
-                          <div className="col-3 p-0" onClick={handleMail}><i className="bi bi-envelope-fill"></i></div>
-                          <div className="col-3 p-0" onClick={handleWap}><i className="bi bi-whatsapp"></i></div>
+                          <div className="col-3 p-0" onClick={handleOpenMap}><i className="biho bi bi-geo-alt-fill"></i></div>
+                          <div className="col-3 p-0" onClick={handleCall}><i className="bi biho bi-telephone-fill"></i></div>
+                          <div className="col-3 p-0" onClick={handleMail}><i className="bi biho bi-envelope-fill"></i></div>
+                          <div className="col-3 p-0" onClick={handleWap}><i className="bi biho bi-whatsapp"></i></div>
                         </div>
                       </div>
                     </div>

@@ -38,10 +38,10 @@ const Footer = () => {
                                 <div className="container">
                                     <div className="col-sm-12">
                                         <div className="row text-center">
-                                            <div className="col-3 p-0" onClick={handleOpenMap}><i className="bi bi-geo-alt-fill"></i></div>
-                                            <div className="col-3 p-0" onClick={handleCall}><i className="bi bi-telephone-fill"></i></div>
-                                            <div className="col-3 p-0" onClick={handleMail}><i className="bi bi-envelope-fill"></i></div>
-                                            <div className="col-3 p-0" onClick={handleWap}><i className="bi bi-whatsapp"></i></div>
+                                            <div className="col-3 p-0" onClick={handleOpenMap}><i className="bi biho bi-geo-alt-fill"></i></div>
+                                            <div className="col-3 p-0" onClick={handleCall}><i className="bi biho bi-telephone-fill"></i></div>
+                                            <div className="col-3 p-0" onClick={handleMail}><i className="bi biho bi-envelope-fill"></i></div>
+                                            <div className="col-3 p-0" onClick={handleWap}><i className="bi biho bi-whatsapp"></i></div>
                                         </div>
                                     </div>
                                 </div>
@@ -52,13 +52,13 @@ const Footer = () => {
                             <div className="col-sm-12 mt-3 col-lg-3">
                                 <h4>Quick Links</h4>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/'><i className="text-danger bi bi-arrow-right"></i> Home</Link>
+                                    <Link className="text-decoration-none text-white" to='/'><i className="bi bi-arrow-right biho"> Home</i></Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Aboutus'><i className="text-danger bi bi-arrow-right"></i> About Us</Link>
+                                    <Link className="text-decoration-none text-white" to='/Aboutus'><i className="biho bi bi-arrow-right"> About Us</i></Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Contactus'><i className="text-danger bi bi-arrow-right"></i> Contact Us</Link>
+                                    <Link className="text-decoration-none text-white" to='/Contactus'><i className="biho bi bi-arrow-right"> Contact Us</i></Link>
                                 </div>
                             </div>
 

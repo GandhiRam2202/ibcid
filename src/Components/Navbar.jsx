@@ -69,10 +69,10 @@ const Navbar = () => {
 
                     <div className="col-lg-12 text-center d-none d-lg-block">
                         <div className="row">
-                            <div className="col-3"><Link className="nav-link-custom" to='/'>Home</Link></div>
+                            <div className="col-3"><Link className="nav-link-custom fw-bold" to='/'>Home</Link></div>
 
                             <div className="col-3 d-flex justify-content-center dropdown">
-                                <div className="dropdown-toggle nav-link-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <div className="dropdown-toggle fw-bold nav-link-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Our Services
                                 </div>
                                 <ul className="col-6 dropdown-menu">
@@ -84,8 +84,8 @@ const Navbar = () => {
                                     <li><a className="dropdown-item" href="#">SPY Software</a></li>
                                 </ul>
                             </div>
-                            <div className="col-3"><Link className="nav-link-custom" to='/Aboutus'>About Us</Link></div>
-                            <div className="col-3"><Link className="nav-link-custom" to='/Contactus'>Contact Us</Link></div>
+                            <div className="col-3"><Link className="nav-link-custom fw-bold" to='/Aboutus'>About Us</Link></div>
+                            <div className="col-3"><Link className="nav-link-custom fw-bold" to='/Contactus'>Contact Us</Link></div>
                         </div>
                     </div>
 
