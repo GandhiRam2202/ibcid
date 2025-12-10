@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from "react-slick";
+import { slides } from './Contact';
 
 
 
@@ -16,20 +17,7 @@ const TextCar1 = () => {
         pauseOnHover: false,
     };
 
-    const slides = [
-        { text: "Your Peace, Our Mission" },
-        { text: "Justice Begins With Facts" },
-        { text: "We See What Others Miss" },
-        { text: "Truth Delivered With Discretion" },
-        { text: "Clarity Behind Every Case" },
-        { text: "Truth leaves footprints" },
-        { text: "Your truth. Our mission" },
-        { text: "Evidence never lies" },
-        { text: "We See What Others Miss" },
-        { text: "Tracking Truth Relentlessly" },
-        { text: "Investigating Beyond Limits" }
-
-    ];
+    
 
 
 
