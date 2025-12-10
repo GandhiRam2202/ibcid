@@ -2,38 +2,14 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-import img0 from "/images/123.jpg";
-import img1 from "/images/1231.jpg";
-import img2 from "/images/132.jpg";
-import img3 from "/images/1321.jpg";
-import img4 from "/images/143.jpg";
+import { slidesImage, setting } from "./Contact";
 
 export default function ImageCarousel() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    pauseOnHover: false,
-  };
-
-  const slides = [
-    { img: img0 },
-    { img: img1 },
-    { img: img2 },
-    { img: img3 },
-    { img: img4 },
-  ];
 
   return (
     <div className="container">
-      <Slider {...settings}>
-        {slides.map((slide, i) => (
+      <Slider {...setting}>
+        {slidesImage.map((slide, i) => (
           <div className="container" key={i}>
             <img
               src={slide.img}

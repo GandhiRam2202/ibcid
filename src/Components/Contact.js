@@ -1,3 +1,35 @@
+import img0 from "/images/123.jpg";
+import img1 from "/images/1231.jpg";
+import img2 from "/images/132.jpg";
+import img3 from "/images/1321.jpg";
+import img4 from "/images/143.jpg";
+import img5 from "/images/img0.jpg";
+import img6 from "/images/img1.jpeg";
+import img7 from "/images/img2.jpeg";
+import img8 from "/images/img3.png";
+import img9 from "/images/img4.jpg";
+
+export  const setings = {
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    pauseOnHover: false,
+  };
+
+export  const slide = [
+    { img: img5, text: "Welcome to Our Website" },
+    { img: img6, text: "Best Services in the City" },
+    { img: img7, text: "Professional & Trusted Team" },
+    { img: img8, text: "We Deliver Quality Work" },
+    { img: img9, text: "We Deliver Quality Work" },
+  ];
+
+
 export function handleWap() {
     window.open(
         "https://wa.me/+918667403826?text=Hello%20I%20want%20to%20know%20more",
@@ -43,4 +75,35 @@ export const slides = [
 
 ];
 
+export const settings = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    pauseOnHover: false,
+};
 
+
+export const setting = {
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    pauseOnHover: false,
+};
+
+export const slidesImage = [
+    { img: img0 },
+    { img: img1 },
+    { img: img2 },
+    { img: img3 },
+    { img: img4 },
+];

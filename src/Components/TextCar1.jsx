@@ -1,25 +1,11 @@
 import React from 'react';
 import Slider from "react-slick";
-import { slides } from './Contact';
+import { slides, settings } from './Contact';
 
 
 
 const TextCar1 = () => {
-    const settings = {
-        dots: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 2500,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        pauseOnHover: false,
-    };
-
-    
-
-
+ 
 
     return (
         <div className="container">
