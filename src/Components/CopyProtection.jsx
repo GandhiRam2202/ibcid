@@ -17,12 +17,7 @@ const CopyProtection = () => {
   };
 
   useEffect(() => {
-    // Disable Right Click
-    const disableRightClick = (e) => {
-      e.preventDefault();
-      showToast();
-    };
-    document.addEventListener("contextmenu", disableRightClick);
+
 
     // Disable Copy
     const blockCopy = (e) => {
@@ -55,7 +50,7 @@ const CopyProtection = () => {
     return () => {
       document.removeEventListener("contextmenu", disableRightClick);
       document.removeEventListener("copy", blockCopy);
-      document.removeEventListener("selectstart", blockSelect);
+      
       
       clearInterval(interval);
     };
