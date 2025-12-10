@@ -6,6 +6,7 @@ import img1 from '/images/con.png'
 import BgImage from './BgImage';
 import { handleCall, handleOpenMap, handleWap, handleMail } from './Contact';
 import TextCar from './TextCar';
+import TextCar1 from './TextCar1';
 
 
 
@@ -29,7 +30,6 @@ const Homepage = () => {
             <div className="container d-lg-none d-sm-block">
                 <Carsol1 />
             </div>
-
 
 
 
@@ -146,7 +146,7 @@ const Homepage = () => {
                 </div>
             </div>
 
-            <TextCar />
+            <TextCar1 />
             <BgImage />
 
 

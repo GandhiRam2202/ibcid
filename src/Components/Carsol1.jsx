@@ -23,11 +23,11 @@ export default function ImageCarousel() {
   };
 
   const slides = [
-    { img: img0, text: "Welcome to Our Website" },
-    { img: img1, text: "Best Services in the City" },
-    { img: img2, text: "Professional & Trusted Team" },
-    { img: img3, text: "We Deliver Quality Work" },
-    { img: img4, text: "We Deliver Quality Work" },
+    { img: img0 },
+    { img: img1 },
+    { img: img2 },
+    { img: img3 },
+    { img: img4 },
   ];
 
   return (
@@ -41,7 +41,6 @@ export default function ImageCarousel() {
               style={{
                 width: "100%",
                 height: "500px",
-                
                 borderRadius: "25px",
               }}
             />
