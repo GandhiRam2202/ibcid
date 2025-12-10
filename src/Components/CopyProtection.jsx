@@ -17,7 +17,12 @@ const CopyProtection = () => {
   };
 
   useEffect(() => {
-
+    // Disable Right Click
+    const disableRightClick = (e) => {
+      e.preventDefault();
+      showToast();
+    };
+    document.addEventListener("contextmenu", disableRightClick);
 
     // Disable Copy
     const blockCopy = (e) => {
@@ -26,14 +31,9 @@ const CopyProtection = () => {
     };
     document.addEventListener("copy", blockCopy);
 
-    // Disable Text Select
-    const blockSelect = (e) => {
-      e.preventDefault();
-      showToast();
-    };
-    document.addEventListener("selectstart", blockSelect);
 
-    // Disable Long Press on Mobile
+
+
 
 
     // Disable image dragging
