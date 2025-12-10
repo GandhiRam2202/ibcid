@@ -1,17 +1,8 @@
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import * as Yup from "yup";
+import { validationSchema } from "./Contact";
 
-const validationSchema = Yup.object({
-    name: Yup.string().required("Name is required"),
-    phone: Yup.string()
-        .matches(/^[0-9]{10}$/, "Phone number must be 10 digits")
-        .required("Phone number is required"),
-    email: Yup.string()
-        .email("Invalid email format")
-        .required("Email is required"),
-    message: Yup.string().optional(),
-});
+
 
 const ContactForm = () => {
     return (

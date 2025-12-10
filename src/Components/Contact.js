@@ -8,6 +8,7 @@ import img6 from "/images/img1.jpeg";
 import img7 from "/images/img2.jpeg";
 import img8 from "/images/img3.png";
 import img9 from "/images/img4.jpg";
+import * as Yup from "yup";
 
 export  const setings = {
     dots: true,
@@ -107,3 +108,15 @@ export const slidesImage = [
     { img: img3 },
     { img: img4 },
 ];
+
+
+export const validationSchema = Yup.object({
+    name: Yup.string().required("Name is required"),
+    phone: Yup.string()
+        .matches(/^[0-9]{10}$/, "Phone number must be 10 digits")
+        .required("Phone number is required"),
+    email: Yup.string()
+        .email("Invalid email format")
+        .required("Email is required"),
+    message: Yup.string().optional(),
+});
