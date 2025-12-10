@@ -39,12 +39,7 @@ const CopyProtection = () => {
     document.addEventListener("selectstart", blockSelect);
 
     // Disable Long Press on Mobile
-    const blockTouch = (e) => {
-      if (e.touches.length > 1) return; // Ignore pinch zoom
-      e.preventDefault();
-      showToast();
-    };
-    document.addEventListener("touchstart", blockTouch, { passive: false });
+
 
     // Disable image dragging
     const disableDrag = () => {
@@ -61,7 +56,7 @@ const CopyProtection = () => {
       document.removeEventListener("contextmenu", disableRightClick);
       document.removeEventListener("copy", blockCopy);
       document.removeEventListener("selectstart", blockSelect);
-      document.removeEventListener("touchstart", blockTouch);
+      
       clearInterval(interval);
     };
   }, []);
