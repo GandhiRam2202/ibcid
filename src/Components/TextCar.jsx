@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import React from 'react';
+
 
 const TextCar = () => {
 
@@ -10,7 +10,7 @@ const TextCar = () => {
 
     return (
         <>
-          <div id="autoText1" className="carousel slide d-block d-lg-none" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="2000" data-bs-swipe="true" data-bs-pause="false">
+          <div id="autoText" className="carousel slide d-block d-lg-none" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="2000" data-bs-swipe="true" data-bs-pause="false">
                 <div className="txtcra carousel-inner text-white text-center p-3">
                     <div className="carousel-item active"><p className="fs-4 mt-3">Your Peace, Our Mission</p></div>
                     <div className="carousel-item"><p className="fs-4 mt-3">Justice Begins With Facts</p></div>
