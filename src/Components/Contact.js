@@ -38,7 +38,9 @@ export function handleWap() {
     );
 };
 
-
+export function linkedIn(){
+    window.open("https://www.linkedin.com/in/parthiban-ramachandiran/", "_blank");
+};
 
 
 

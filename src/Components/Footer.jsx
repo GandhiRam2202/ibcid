@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { handleOpenMap, handleCall, handleMail, handleWap } from './Contact';
+import { handleOpenMap, handleCall, handleMail, handleWap, linkedIn } from './Contact';
 
 const Footer = () => {
 
@@ -114,9 +114,9 @@ const Footer = () => {
                     <div className="container text-center">
                         <hr className='text-white' />
                         <div className="row">
-                            <div className='col-sm-12 col-lg-6 mb-2 text-white'>Copyright 2025 by IBCID-Detectives All Rights Reserved</div>
+                            <div className='col-sm-12 col-lg-6 mb-2 text-white'>Copyright {new Date().getFullYear()} @ IBCID-Detectives All Rights Reserved</div>
                             <div className='col-sm-12 col-lg-6 text-white'
-                                onClick={() => window.open("https://www.linkedin.com/in/parthiban-ramachandiran/", "_blank")}
+                                onClick={linkedIn}
 
                             >
                                 <p className='mb-0'>Designed And Developed</p>
