@@ -1,16 +1,18 @@
-.txt{
-    font-family: 'Times New Roman', Times, serif;
+.txt {
+  font-family: 'Times New Roman', Times, serif;
 }
-.card:hover{
-    position: relative;
-    bottom: 20px;
+
+.card:hover {
+  position: relative;
+  bottom: 20px;
 }
 
 .frame-container {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #ffffff; /* Outer black background */
+  background: #ffffff;
+  /* Outer black background */
 }
 
 .frame-outline {
@@ -26,55 +28,67 @@
 
 .frame-img {
   display: block;
-  box-shadow: -20px -20px 20px rgba(10,10,10,10);
+  box-shadow: -20px -20px 20px rgba(10, 10, 10, 10);
   height: auto;
   border-radius: 6px;
 }
 
-.txtcra{
-    background-color: red;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    text-shadow:
-        4px 4px 8px rgba(10, 10, 10, 10),
-        -1px -1px 1px rgba(10, 0, 0, 0.797);
+.txtcra {
+  background-color: red;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-shadow:
+    4px 4px 8px rgba(10, 10, 10, 10),
+    -1px -1px 1px rgba(10, 0, 0, 0.797);
 }
 
-.font{
-font-family: 'Times New Roman', Times, serif;
-color: red;
+.font {
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
 }
 
-.font1{
-font-family: 'Times New Roman', Times, serif;
-font-size: 50px;
+.font1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
 }
 
 .bi-map,
 .bi-envelope,
 .bi-telephone,
-.whatsapp{
-font-family: 'Times New Roman', Times, serif;
-font-size: 50px;
-color: red;
+.whatsapp {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: red;
 }
 
-.crdtxt{
+.crdtxt {
   font-size: 15px;
 }
 
-.crd{
+.crd {
   border-radius: 25px;
-  border:solid red 1px;
+  border: solid red 1px;
+}
+
+.crd1 {
+  background: linear-gradient(
+    to bottom right,
+    transparent 70%,
+    red 10%,
+    red 100%
+  );
+  border: 0.5px solid red;
+  
 }
 
 
-.biho:hover{
-   color: red;
+
+.biho:hover {
+  color: red;
 }
 
 
-.fnt{
-font-family: 'Times New Roman', Times, serif;
-color: white;
+.fnt {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
 }

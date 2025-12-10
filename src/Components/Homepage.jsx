@@ -4,6 +4,8 @@ import Carsol1 from './Carsol1'
 import '../Components/Homepage.css';
 import img1 from '/images/con.png'
 import BgImage from './BgImage';
+import { handleCall, handleOpenMap, handleWap, handleMail } from './Contact';
+import TextCar from './TextCar';
 
 
 
@@ -103,9 +105,49 @@ const Homepage = () => {
 
 
             </div>
-            
 
-<BgImage/>
+
+
+
+            <div className="container-fluid m-0 p-0 text-center" style={{
+                backgroundImage: "url('/images/home1.png')",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                height: "100%",
+            }}>
+                <div className="container-fluid p-0" style={{
+                    background: "rgba(0, 0, 0, 0.7)",
+                }}>
+                    <h4 className='font m-0 fw-bold'>Our Services</h4>
+                    <h1 className='font1 text-white fw-bold'>Private Investigation Services</h1>
+
+                    <div className="row p-0 m-0 justify-content-center">
+
+
+                       
+                                <div className="col-sm-12 col-lg-3 d-flex text-center justify-content-center p-0 mb-3 fw-bold">
+                                    <div className="card crd1" style={{ width: "18rem" }}>
+                                        <i className="bi text-center bi-envelope" onClick={handleMail}></i>
+                                        <h5 className="card-title mt-4 text-danger">E-Mail</h5>
+                                        <div className="card-body p-0">
+                                            <p className="crdtxt text-white mt-5">
+                                                ibcidetective22@gmail.com
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                         
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <TextCar />
+            <BgImage />
 
 
         </>

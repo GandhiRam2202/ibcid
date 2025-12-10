@@ -15,7 +15,7 @@ const validationSchema = Yup.object({
 
 const ContactForm = () => {
     return (
-        <div className="container mt-4 p-0">
+        <div className="container p-0">
 
             <Formik
                 initialValues={{ name: "", phone: "", email: "", message: "" }}

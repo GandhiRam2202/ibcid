@@ -1,6 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const TextCar = () => {
+
+
+
+  useEffect(() => {
+    const autoText = document.getElementById("autoText");
+    if (autoText) {
+      // Initialize Bootstrap carousel manually
+      new window.bootstrap.Carousel(autoText, {
+        interval: 2000,
+        ride: "carousel",
+        touch: true,
+        pause: false
+      });
+    }
+  }, []);
+
+
+
     return (
         <>
           <div id="autoText" className="d-block d-lg-none carousel slide" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="2000" data-bs-swipe="true" data-bs-pause="false">
