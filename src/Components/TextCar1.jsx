@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
+
 
 const TextCar1 = () => {
     const settings = {
@@ -37,12 +37,12 @@ const TextCar1 = () => {
         <div className="container">
             <Slider {...settings}>
                 {slides.map((slide, i) => (
-                    <div className="container text-center text-white" key={i} style={{ position: "relative" }}>
-                        <p className='txtcra mt-3 fs-4 fw-bold'>
-                            
-                           {slide.text}
-                           
-                        </p>
+                    <div className="text-center text-white" key={i}>
+                        <div className='col-sm-12 txtcra fs-4 fw-bold'>
+
+                            {slide.text}
+
+                        </div>
 
                         {/* Text Overlay */}
 

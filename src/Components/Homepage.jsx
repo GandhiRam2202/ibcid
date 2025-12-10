@@ -4,9 +4,9 @@ import Carsol1 from './Carsol1'
 import '../Components/Homepage.css';
 import img1 from '/images/con.png'
 import BgImage from './BgImage';
-import { handleCall, handleOpenMap, handleWap, handleMail } from './Contact';
+import { handleMail } from './Contact';
 import TextCar from './TextCar';
-import TextCar1 from './TextCar1';
+
 
 
 
@@ -146,7 +146,7 @@ const Homepage = () => {
                 </div>
             </div>
 
-            <TextCar1 />
+            <TextCar />
             <BgImage />
 
 

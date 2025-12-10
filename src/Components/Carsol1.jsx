@@ -34,7 +34,7 @@ export default function ImageCarousel() {
     <div className="container">
       <Slider {...settings}>
         {slides.map((slide, i) => (
-          <div className="container" key={i} style={{ position: "relative" }}>
+          <div className="container" key={i}>
             <img
               src={slide.img}
               alt={`slide-${i}`}
