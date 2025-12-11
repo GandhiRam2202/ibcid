@@ -4,7 +4,7 @@ import Homepage from './Homepage';
 import Aboutus from './Aboutus';
 import Contactus from './Contactus';
 import Personal from './Personal';
-import Footer from './footer';
+import Footer from './Footer';
 
 
 const Home = () => {
