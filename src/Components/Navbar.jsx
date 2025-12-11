@@ -75,11 +75,12 @@ const Navbar = () => {
                             <div className="dropdown-toggle fw-bold nav-link-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Our Services
                             </div>
-                            <ul className="col-6 dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Personal Sevices</a></li>
-                                <li><a className="dropdown-item" href="#">Corporate Services</a></li>
-                                <li><a className="dropdown-item" href="#">Legal Services</a></li>
-                                <li><a className="dropdown-item" href="#">Special Services</a></li>
+                            <ul className="col-8 bg text-center dropdown-menu">
+                                <li><Link className='drop dropdown-item' to='/Personal'>Personal Sevices</Link></li>
+                                <li><Link className='drop dropdown-item' to='/Coporate'>Corporate Services</Link></li>
+                                <li><Link className='drop dropdown-item' to='/Legal'>Legal Sevices</Link></li>
+                                <li><Link className='drop dropdown-item' to='/Special'>Special Sevices</Link></li>
+
                             </ul>
                         </div>
                         <div className="col-3"><Link className="nav-link-custom fw-bold" to='/Aboutus'>About Us</Link></div>
@@ -91,9 +92,12 @@ const Navbar = () => {
 
             {/*------offcanvas-------------*/}
 
-            <div className="offcanvas offcanvas-start myCanvas" data-bs-scroll="true"
-                tabIndex="-1" id="offcanvasWithBothOptions"
+            <div className="offcanvas offcanvas-start myCanvas"
+                data-bs-scroll="true"
+                tabIndex="-1"
+                id="offcanvasWithBothOptions"
                 aria-labelledby="offcanvasWithBothOptionsLabel">
+
 
                 <div className="offcanvas-header">
                     <div className="col-12">
@@ -109,17 +113,17 @@ const Navbar = () => {
 
 
                     <div data-bs-dismiss="offcanvas"><Link className='nav-link-custom' to='/'>Home</Link></div>
-                   
-                        <div className="dropdown-toggle fw-bold nav-link-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Our Services
-                        </div>
-                        <ul className="col-6 text-center dropdown-menu bg">
-                            <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Personal'>Personal Sevices</Link></li>
-                            <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Corporate'>Corporate Sevices</Link></li>
-                            <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Legal'>Legal Sevices</Link></li>
-                            <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Special'>Special Sevices</Link></li>
-                            
-                        </ul>
+
+                    <div className="dropdown-toggle fw-bold nav-link-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Our Services
+                    </div>
+                    <ul className="col-6 text-center dropdown-menu bg">
+                        <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Personal'>Personal Sevices</Link></li>
+                        <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Corporate'>Corporate Sevices</Link></li>
+                        <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Legal'>Legal Sevices</Link></li>
+                        <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Special'>Special Sevices</Link></li>
+
+                    </ul>
 
 
                     <div data-bs-dismiss="offcanvas"><Link className='nav-link-custom' to='/Aboutus'>About Us</Link></div>

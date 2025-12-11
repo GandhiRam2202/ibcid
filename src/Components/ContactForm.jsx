@@ -47,7 +47,7 @@ const ContactForm = () => {
                         {/* Name */}
                         <div className="mb-3">
                             <label className="form-label fw-bold">Name <span className="font">*</span></label>
-                            <Field name="name" className="form-control" />
+                            <Field name="name" id='name' className="form-control" placeholder='Enter Your Name' autoComplete='name'/>
                             <ErrorMessage
                                 name="name"
                                 component="small"
@@ -58,9 +58,9 @@ const ContactForm = () => {
                         {/* Phone */}
                         <div className="mb-3">
                             <label className="form-label fw-bold">Phone Number <span className="font">*</span></label>
-                            <Field name="phone" className="form-control" />
+                            <Field name="phone" id='phone' className="form-control" placeholder='Enter Your Phone Number' autoComplete='phone'/>
                             <ErrorMessage
-                                name="Phone Number"
+                                name="phone"
                                 component="small"
                                 className="text-danger"
                             />
@@ -69,7 +69,7 @@ const ContactForm = () => {
                         {/* Email */}
                         <div className="mb-3">
                             <label className="form-label fw-bold">Email <span className="font">*</span></label>
-                            <Field name="email" type="email" className="form-control" />
+                            <Field name="email" id='mail' type="email" className="form-control" placeholder="Enter Your Email" autoComplete="email"  />
                             <ErrorMessage
                                 name="email"
                                 component="small"

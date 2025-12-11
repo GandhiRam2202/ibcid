@@ -68,7 +68,7 @@ const Footer = () => {
                                 <h4>Our Services</h4>
 
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/'><i className="text-danger bi bi-arrow-right"></i> Personal Services</Link>
+                                    <Link className="text-decoration-none text-white" to='/Personal'><i className="text-danger bi bi-arrow-right"></i> Personal Services</Link>
                                 </div>
                                 <div className="col-12">
                                     <Link className="text-decoration-none text-white" to='/Aboutus'><i className="text-danger bi bi-arrow-right"></i> Corporate Services</Link>
