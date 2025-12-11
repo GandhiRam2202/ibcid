@@ -79,12 +79,7 @@ const Footer = () => {
                                 <div className="col-12">
                                     <Link className="text-decoration-none text-white" to='/Contactus'><i className="text-danger bi bi-arrow-right"></i> Legal Services</Link>
                                 </div>
-                                <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Contactus'><i className="text-danger bi bi-arrow-right"></i> Spy Cameras</Link>
-                                </div>
-                                <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Contactus'><i className="text-danger bi bi-arrow-right"></i> Spy Softwares</Link>
-                                </div>
+                               
 
                             </div>
 

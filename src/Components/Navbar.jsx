@@ -113,11 +113,12 @@ const Navbar = () => {
                         <div className="dropdown-toggle fw-bold nav-link-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Our Services
                         </div>
-                        <ul className="col-6 text-center dropdown-menu bg-danger">
-                            <li><Link className='nav-link-custom' to='/Aboutus'>Personal Sevices</Link></li>
-                            <li><a className="dropdown-item" href="#">Corporate Services</a></li>
-                            <li><a className="dropdown-item" href="#">Legal Services</a></li>
-                            <li><a className="dropdown-item" href="#">Special Services</a></li>
+                        <ul className="col-6 text-center dropdown-menu bg">
+                            <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Personal'>Personal Sevices</Link></li>
+                            <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Corporate'>Corporate Sevices</Link></li>
+                            <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Legal'>Legal Sevices</Link></li>
+                            <li><Link data-bs-dismiss="offcanvas" className='nav-link-custom' to='/Special'>Special Sevices</Link></li>
+                            
                         </ul>
 
 
