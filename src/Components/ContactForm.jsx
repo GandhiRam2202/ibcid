@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { validationSchema } from "./Contact";
+import { toast } from "react-toastify";
 
 
 
 const ContactForm = () => {
+
+
+      const toastCooldown = useRef(false);
+    
+      // Make toast appear only once per 1 second
+      const showMailToast = () => {
+        if (toastCooldown.current) return;
+        toastCooldown.current = true;
+    
+        toast.error("Mail Sent Successfully", { autoClose: 1000 });
+    
+        setTimeout(() => {
+          toastCooldown.current = false;
+        }, 1200);
+      };
+
+
     return (
         <div className="container p-0">
 
@@ -18,7 +36,7 @@ const ContactForm = () => {
                     };
                     console.log(data);
                     
-                    alert("Form Submitted Successfully!");
+                    showMailToast()
                     resetForm();
                 }}
             >
@@ -42,7 +60,7 @@ const ContactForm = () => {
                             <label className="form-label fw-bold">Phone Number <span className="font">*</span></label>
                             <Field name="phone" className="form-control" />
                             <ErrorMessage
-                                name="phone"
+                                name="Phone Number"
                                 component="small"
                                 className="text-danger"
                             />

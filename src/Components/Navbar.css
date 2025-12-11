@@ -9,11 +9,12 @@ font-size: 1.2rem;
 }
 
 .nav-link-custom {
+ 
   text-decoration: none;
   color: #ffffff;   
   font-family: 'Times New Roman', Times, serif;
   font-weight: 'bolder';   
-  font-size: 25px;  
+  font-size: 2erm;  
 }
 .nav-link-custom:hover {
     

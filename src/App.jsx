@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
     <div>
-   <CopyProtection/> 
+  <CopyProtection/>
       <ToastContainer position="top-center" theme='dark'/>
   <BrowserRouter>
        

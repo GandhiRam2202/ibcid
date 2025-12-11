@@ -92,9 +92,3 @@
   font-family: 'Times New Roman', Times, serif;
   color: white;
 }
-
-
-img {
-  -webkit-user-drag: none !important;
-  pointer-events: none; /* only if you want full protection */
-}

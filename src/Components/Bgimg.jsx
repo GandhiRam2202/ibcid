@@ -3,7 +3,7 @@ import { handleCall, handleOpenMap, handleWap, handleMail } from './Contact';
 
 const Bgimg = () => {
     return (
-        <div>
+        
              <>
                         <div
                             className="container-fluid p-0"
@@ -68,7 +68,7 @@ const Bgimg = () => {
                             </div>
                         </div >
                     </>
-        </div>
+    
     );
 };
 
