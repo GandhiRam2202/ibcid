@@ -179,7 +179,7 @@ const Personal = () => {
                                     <img
                                         src="/images/divo.png"
                                         alt=""
-                                        className="frame-img" style={{ height: '400px' }}
+                                        className="frame-img" style={{ height: '500px' }}
                                     />
                                 </div>
                             </div>
