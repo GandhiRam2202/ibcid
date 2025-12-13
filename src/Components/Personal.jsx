@@ -278,8 +278,6 @@ const Personal = () => {
             </div>
             <TextCar />
 
-             
-
              <div className="mt-2 container">
                 <div className="col-sm-12">
                     <div className="row">
@@ -342,77 +340,9 @@ const Personal = () => {
                                         className="frame-img" style={{ height: '500px' }}
                                     />
                                 </div>
-                            </div>
-                        </div>
-
-<div className="mt-2 container">
-                <div className="col-sm-12">
-                    <div className="row">
-                        <div className="col-sm-12 p-0 col-lg-6 text-warp">
-                            <h1 className='text-danger'>
-                                Personal Detective Services
-                            </h1>
-                            <p className='fw-bold'>🕵️ Personal Detective Services – Get the Truth You Need with Complete Confidentiality</p>
+                           
 
 
-                            <p>When doubts, risks, or unexpected problems arise in your personal life, you deserve clear
-                                answers — not stress or confusion.</p>
-
-                            <p>Our <b>Personal Detective Services</b> are designed to uncover facts, gather solid evidence,
-                                and protect your safety and peace of mind.</p>
-
-                            <p>We handle every case discreetly, professionally, and legally, ensuring you receive reliable
-                                information without anyone knowing an investigation took place.</p>
-
-
-                            <p className='fw-bold mt-2 mb-1'> 🎯 When Do You Need a Personal Detective ?</p>
-                            <li className="d-flex align-items-center mb-2">
-                                ✔ Suspicious behaviour from a partner or friend</li>
-                            <li className="d-flex align-items-center mb-2">
-                                ✔ Unknown threats or harassment</li>
-                            <li className="d-flex align-items-center mb-2">
-                                ✔ A person who suddenly disappears</li>
-                            <li className="d-flex align-items-center mb-2">
-                                ✔ Trust issues in relationships</li>
-                            <li className="d-flex align-items-center mb-2">
-                                ✔ Cheating or financial disputes</li>
-                            <li className="d-flex align-items-center mb-2">
-                                ✔ Personal safety concerns</li>
-                            <li className="d-flex align-items-center mb-2">
-                                ✔ Someone hiding their real identity</li>
-
-
-                        </div>
-                        <div className="col-sm-12 p-0 col-lg-6 d-none d-lg-block">
-
-
-                            <div className="frame-outline">
-                                <div className="frame-bg d-flex justify-content-center align-items-center">
-                                    <img
-                                        src="/images/abbs2.png"
-                                        alt=""
-                                        className="frame-img" style={{ height: '550px' }}
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-sm-12 p-0 col-lg-6 d-block d-lg-none">
-
-
-                            <div className="frame-outline">
-                                <div className="frame-bg d-flex justify-content-center align-items-center">
-                                    <img
-                                        src="/images/abbs2.png"
-                                        alt=""
-                                        className="frame-img" style={{ height: '500px' }}
-                                    />
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
                     <div className=" mt-2 container">
                         <div className="col-sm-12">
                             <p className='text-center fw-bold'>🔍 Our Personal Investigation Services Include:</p>
