@@ -27,7 +27,7 @@ const Contactus = () => {
           <div className="col-sm-12 col-lg-3 d-flex text-center justify-content-center mb-3 fw-bold">
             <div className="card crd" style={{ width: "18rem" }}>
               <i className="bi bi-map text-center fw-bold" onClick={handleOpenMap}></i>
-              <h5 className="card-title mt-4 text-danger">Our Office</h5>
+              <h5 className="card-title mt-4">Our Office</h5>
               <div className="card-body p-0">
 
                 <p className="crdtxt p-0 m-0" >SRI BALAVINAYAGA APARTMENT</p>
@@ -44,7 +44,7 @@ const Contactus = () => {
           <div className="col-sm-12 col-lg-3 d-flex text-center justify-content-center mb-3 fw-bold">
             <div className="card crd" style={{ width: "18rem" }}>
               <i className="bi text-center bi-envelope" onClick={handleMail}></i>
-              <h5 className="card-title mt-4 text-danger">E-Mail</h5>
+              <h5 className="card-title mt-4">E-Mail</h5>
               <div className="card-body p-0">
                 <p className="crdtxt mt-5">
                   ibcidetective22@gmail.com
@@ -56,7 +56,7 @@ const Contactus = () => {
           <div className="col-sm-12 col-lg-3 d-flex text-center justify-content-center mb-3 fw-bold">
             <div className="card crd" style={{ width: "18rem" }}>
               <i className="bi bi-telephone" onClick={handleCall}></i>
-              <h5 className="card-title mt-4 text-danger">Phone</h5>
+              <h5 className="card-title mt-4">Phone</h5>
               <div className="card-body p-0">
                 <p className="crdtxt mt-5">
                   (+91)8667403826
@@ -68,7 +68,7 @@ const Contactus = () => {
           <div className="col-sm-12 col-lg-3 d-flex text-center justify-content-center mb-3 fw-bold">
             <div className="card crd" style={{ width: "18rem" }}>
               <i className="bi bi-whatsapp whatsapp" onClick={handleWap}></i>
-              <h5 className="card-title mt-4 text-danger">Whatsapp</h5>
+              <h5 className="card-title mt-4">Whatsapp</h5>
               <div className="card-body p-0">
                 <p className="crdtxt mt-5">
                   (+91)8667403826

@@ -10,17 +10,7 @@ import img8 from "/images/img3.png";
 import img9 from "/images/img4.jpg";
 import * as Yup from "yup";
 
-export  const setings = {
-    dots: true,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 1500,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    pauseOnHover: false,
-  };
+
 
 export  const slide = [
     { img: img5, text: "Welcome to Our Website" },
@@ -91,17 +81,7 @@ export const settings = {
 };
 
 
-export const setting = {
-    dots: true,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    pauseOnHover: false,
-};
+
 
 export const slidesImage = [
     { img: img0 },

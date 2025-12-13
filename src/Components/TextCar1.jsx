@@ -1,17 +1,17 @@
 import React from 'react';
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { slides, settings } from './Contact';
 
-
-
 const TextCar1 = () => {
- 
+   
 
     return (
         <div className="container">
             <Slider {...settings}>
                 {slides.map((slide, i) => (
-                    <div className="text-center text-white" key={i}>
+                    <div className=" text-center text-white" key={i} style={{ position: "relative" }}>
                         <div className='col-sm-12 txtcra fs-4 fw-bold'>
 
                             {slide.text}

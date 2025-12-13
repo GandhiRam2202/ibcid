@@ -1,7 +1,5 @@
 import React from 'react';
 import BgImage from './BgImage';
-import { Link } from 'react-router-dom';
-import { handleOpenMap, handleCall, handleMail, handleWap } from './Contact';
 import TextCar from './TextCar';
 import Trust from './Trust';
 
