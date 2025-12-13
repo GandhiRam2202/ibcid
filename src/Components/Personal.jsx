@@ -419,30 +419,30 @@ const Personal = () => {
 
                             <p className='text-center mt-2 mb-0 fw-bold'>
                                 ✔ Tracking People</p>
-                            <p>Locate missing individuals, runaway family members, or people avoiding communication.</p>
+                            <p className='text-center'>Locate missing individuals, runaway family members, or people avoiding communication.</p>
                             <p className='text-center mt-2 mb-0 fw-bold'>
                                 ✔ Background Verification</p>
-                            <p>Know the real truth about someone’s past before trusting them.</p>
+                            <p className='text-center'>Know the real truth about someone’s past before trusting them.</p>
                             <p className='text-center mt-2 mb-0 fw-bold'>
                                 ✔ Extra-Marital / Relationship Issues</p>
 
-                            <p>Identify cheating partners, suspicious behavior, and hidden activities.</p>
+                            <p className='text-center'>Identify cheating partners, suspicious behavior, and hidden activities.</p>
                             <p className='text-center mt-2 mb-0 fw-bold'>
                                 ✔ Surveillance & Activity Monitoring</p>
 
-                            <p>Real-time monitoring of movements, meetings, and daily routines.</p>
+                            <p className='text-center'>Real-time monitoring of movements, meetings, and daily routines.</p>
                             <p className='text-center mt-2 mb-0 fw-bold'>
                                 ✔ Money Fraud & Cheating Cases</p>
 
-                            <p>Investigate financial scams, cheating in partnerships, and personal monetary disputes.</p>
+                            <p className='text-center'>Investigate financial scams, cheating in partnerships, and personal monetary disputes.</p>
                             <p className='text-center mt-2 mb-0 fw-bold'>
                                 ✔ Missing Person Investigation</p>
 
-                            <p>Find individuals who have suddenly disappeared or lost contact.</p>
+                            <p className='text-center'>Find individuals who have suddenly disappeared or lost contact.</p>
                             <p className='text-center mt-2 mb-0 fw-bold'>
                                 ✔ Cyber & Social Media Investigation</p>
 
-                            <p>Detect fake accounts, online harassment, threats, and digital fraud.</p>
+                            <p className='text-center'>Detect fake accounts, online harassment, threats, and digital fraud.</p>
                         </div>
                     </div>
                 </div>
