@@ -6,6 +6,8 @@ import Contactus from './Contactus';
 import Personal from './Personal';
 import Footer from './Footer';
 import Corporate from './Corporate';
+import Legal from './Legal';
+import Special from './Special';
 
 
 const Home = () => {
@@ -21,6 +23,8 @@ const Home = () => {
                     <Route path='/Contactus' element={<Contactus />} />
                     <Route path='/Personal' element={<Personal />} />
                     <Route path='/Corporate' element={<Corporate />} />
+                    <Route path='/Legal' element={<Legal />} />
+                    <Route path='/Special' element={<Special />} />
                 </Routes>
             </div>
             <Footer/>
