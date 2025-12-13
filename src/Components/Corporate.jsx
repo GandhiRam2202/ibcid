@@ -3,6 +3,7 @@ import Bgimg from './Bgimg';
 import Trust from './Trust';
 import ContactForm from './ContactForm';
 import { handleCall, handleOpenMap, handleWap, handleMail } from './Contact';
+import TextCar from './TextCar';
 
 const Corporate = () => {
     return (
@@ -10,6 +11,16 @@ const Corporate = () => {
           <Bgimg/>
 
            <div className="container mt-2">
+            <div className="text-center container">
+                <div className="frame-bg2">
+                <p className='fw-bold'>🏢 Corporate Investigation Services </p> 
+                <p>Protecting Your Business with Facts & Proof</p>
+
+<p>In today’s competitive business environment, hidden risks can cost companies time, money, and reputation.</p>
+<p>Our Corporate Investigation Services help organizations uncover the truth, prevent fraud, and make informed decisions with confidence.</p>
+
+<p>We provide discreet, legally compliant, and result-oriented investigations for businesses of all sizes.</p></div>
+            </div>
                 <div className="row">
                     <div className="col-sm-12 text-center d-none d-lg-block p-0 col-lg-6">
                         <div className="frame-outline">
@@ -75,6 +86,7 @@ const Corporate = () => {
                 </div>
 
             </div>
+             <TextCar/>
              <div className="container border border-1 shadow-lg" >
         <div className="col-sm-12">
           <div className="row">
@@ -149,6 +161,7 @@ const Corporate = () => {
 
 
             </div>
+           
             <div className="col-sm-12 col-lg-6">
               <ContactForm/>
 
