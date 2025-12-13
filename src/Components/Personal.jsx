@@ -123,11 +123,11 @@ const Personal = () => {
             </div>
             <TextCar />
 
-            <div className="container">
+            <div className=" mt-2 container">
                 <div className="col-sm-12">
                     <div className="row">
-                        <div className="col-sm-12 p-0 col-lg-6 text-warp">
-                            <h1 className='m-4 text-danger'>
+                        <div className="col-sm-12 text-wrap p-2 col-lg-6 text-warp">
+                            <h1 className='text-danger'>
                                 Divorce
                             </h1>
                             <p className='fw-bold'>🔥 Divorce Investigation – Get the Truth You Deserve Before Making Life Decisions</p>
@@ -191,52 +191,6 @@ const Personal = () => {
                 </div>
 
 
-            </div>
-
-            <div className="container-fluid p-0"
-                style={{
-                    backgroundImage: "url('/images/con.png')",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    height: "100%",
-                }}>
-                <div className="container-fluid m-0 p-0" style={{
-                    background: "rgba(0, 0, 0, 0.8)",
-                }}>
-                    <div className="container text-center">
-                        <div className="row">
-                            <div className="col-sm-12 p-0 col-lg-6">
-                                <p className='fw-bold text-danger fs-5 mt-3'>🛡️ Why Clients Trust Us</p>
-                                <p className="fw-bold text-white mb-2">
-                                    Complete confidentiality </p>
-                                <p className="fw-bold text-white  mb-2">
-                                    Accurate & verified information</p>
-                                <p className="fw-bold text-white  mb-2">
-                                    Real-time updates and reports</p>
-                                <p className="fw-bold text-white  mb-2">
-                                    Legal & ethical investigation methods</p>
-                                <p className="fw-bold text-white  mb-2">
-                                    Experienced and certified detectives</p>
-                            </div>
-                            <div className="col-sm-12 m-0  p-0 col-lg-6">
-
-                                <p className='fw-bold text-danger fs-5 mt-3'>🚀 How We Work</p>
-                                <p className="fw-bold text-white mb-2">
-                                    On-ground surveillance </p>
-                                <p className="fw-bold text-white  mb-2">
-                                    Digital footprint tracing</p>
-                                <p className="fw-bold text-white  mb-2">
-                                    Background verification</p>
-                                <p className="fw-bold text-white  mb-2">
-                                    Local enquiry</p>
-                                <p className="fw-bold text-white  mb-2">
-                                    Movement monitoring</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             <div className="container mt-2">
@@ -323,6 +277,229 @@ const Personal = () => {
 
             </div>
             <TextCar />
+
+             
+
+             <div className="mt-2 container">
+                <div className="col-sm-12">
+                    <div className="row">
+                        <div className="col-sm-12 p-2 col-lg-6 text-warp">
+                            <h1 className='text-danger'>
+                                Personal Detective Services
+                            </h1>
+                            <p className='fw-bold'>🕵️ Personal Detective Services – Get the Truth You Need with Complete Confidentiality</p>
+
+
+                            <p>When doubts, risks, or unexpected problems arise in your personal life, you deserve clear 
+                                answers — not stress or confusion.</p>
+
+                            <p>Our <b>Personal Detective Services</b> are designed to uncover facts, gather solid evidence, 
+                                and protect your safety and peace of mind.</p>
+
+                            <p>We handle every case discreetly, professionally, and legally, ensuring you receive reliable
+                                 information without anyone knowing an investigation took place.</p>
+
+
+                            <p className='fw-bold mt-2 mb-1'> 🎯 When Do You Need a Personal Detective ?</p>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Suspicious behaviour from a partner or friend</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Unknown threats or harassment</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ A person who suddenly disappears</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Trust issues in relationships</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Cheating or financial disputes</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Personal safety concerns</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Someone hiding their real identity</li>
+
+
+                        </div>
+                        <div className="col-sm-12 p-0 col-lg-6 d-none d-lg-block">
+
+
+                            <div className="frame-outline">
+                                <div className="frame-bg d-flex justify-content-center align-items-center">
+                                    <img
+                                        src="/images/abbs2.png"
+                                        alt=""
+                                        className="frame-img" style={{ height: '550px' }}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-12 p-0 col-lg-6 d-block d-lg-none">
+
+
+                            <div className="frame-outline">
+                                <div className="frame-bg d-flex justify-content-center align-items-center">
+                                    <img
+                                        src="/images/abbs2.png"
+                                        alt=""
+                                        className="frame-img" style={{ height: '500px' }}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+<div className="mt-2 container">
+                <div className="col-sm-12">
+                    <div className="row">
+                        <div className="col-sm-12 p-0 col-lg-6 text-warp">
+                            <h1 className='text-danger'>
+                                Personal Detective Services
+                            </h1>
+                            <p className='fw-bold'>🕵️ Personal Detective Services – Get the Truth You Need with Complete Confidentiality</p>
+
+
+                            <p>When doubts, risks, or unexpected problems arise in your personal life, you deserve clear
+                                answers — not stress or confusion.</p>
+
+                            <p>Our <b>Personal Detective Services</b> are designed to uncover facts, gather solid evidence,
+                                and protect your safety and peace of mind.</p>
+
+                            <p>We handle every case discreetly, professionally, and legally, ensuring you receive reliable
+                                information without anyone knowing an investigation took place.</p>
+
+
+                            <p className='fw-bold mt-2 mb-1'> 🎯 When Do You Need a Personal Detective ?</p>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Suspicious behaviour from a partner or friend</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Unknown threats or harassment</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ A person who suddenly disappears</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Trust issues in relationships</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Cheating or financial disputes</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Personal safety concerns</li>
+                            <li className="d-flex align-items-center mb-2">
+                                ✔ Someone hiding their real identity</li>
+
+
+                        </div>
+                        <div className="col-sm-12 p-0 col-lg-6 d-none d-lg-block">
+
+
+                            <div className="frame-outline">
+                                <div className="frame-bg d-flex justify-content-center align-items-center">
+                                    <img
+                                        src="/images/abbs2.png"
+                                        alt=""
+                                        className="frame-img" style={{ height: '550px' }}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-12 p-0 col-lg-6 d-block d-lg-none">
+
+
+                            <div className="frame-outline">
+                                <div className="frame-bg d-flex justify-content-center align-items-center">
+                                    <img
+                                        src="/images/abbs2.png"
+                                        alt=""
+                                        className="frame-img" style={{ height: '500px' }}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div className=" mt-2 container">
+                        <div className="col-sm-12">
+                            <p className='text-center fw-bold'>🔍 Our Personal Investigation Services Include:</p>
+
+                            <p className='text-center mt-2 mb-0 fw-bold'>
+                                ✔ Tracking People</p>
+                            <p>Locate missing individuals, runaway family members, or people avoiding communication.</p>
+                            <p className='text-center mt-2 mb-0 fw-bold'>
+                                ✔ Background Verification</p>
+                            <p>Know the real truth about someone’s past before trusting them.</p>
+                            <p className='text-center mt-2 mb-0 fw-bold'>
+                                ✔ Extra-Marital / Relationship Issues</p>
+
+                            <p>Identify cheating partners, suspicious behavior, and hidden activities.</p>
+                            <p className='text-center mt-2 mb-0 fw-bold'>
+                                ✔ Surveillance & Activity Monitoring</p>
+
+                            <p>Real-time monitoring of movements, meetings, and daily routines.</p>
+                            <p className='text-center mt-2 mb-0 fw-bold'>
+                                ✔ Money Fraud & Cheating Cases</p>
+
+                            <p>Investigate financial scams, cheating in partnerships, and personal monetary disputes.</p>
+                            <p className='text-center mt-2 mb-0 fw-bold'>
+                                ✔ Missing Person Investigation</p>
+
+                            <p>Find individuals who have suddenly disappeared or lost contact.</p>
+                            <p className='text-center mt-2 mb-0 fw-bold'>
+                                ✔ Cyber & Social Media Investigation</p>
+
+                            <p>Detect fake accounts, online harassment, threats, and digital fraud.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div className="container-fluid p-0"
+                style={{
+                    backgroundImage: "url('/images/con.png')",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    height: "100%",
+                }}>
+                <div className="container-fluid m-0 p-0" style={{
+                    background: "rgba(0, 0, 0, 0.8)",
+                }}>
+                    <div className="container text-center">
+                        <div className="row">
+                            <div className="col-sm-12 p-0 col-lg-6">
+                                <p className='fw-bold text-danger fs-5 mt-3'>🛡️ Why Clients Trust Us</p>
+                                <p className="fw-bold text-white mb-2">
+                                    Complete confidentiality </p>
+                                <p className="fw-bold text-white  mb-2">
+                                    Accurate & verified information</p>
+                                <p className="fw-bold text-white  mb-2">
+                                    Real-time updates and reports</p>
+                                <p className="fw-bold text-white  mb-2">
+                                    Legal & ethical investigation methods</p>
+                                <p className="fw-bold text-white  mb-2">
+                                    Experienced and certified detectives</p>
+                            </div>
+                            <div className="col-sm-12 m-0  p-0 col-lg-6">
+
+                                <p className='fw-bold text-danger fs-5 mt-3'>🚀 How We Work</p>
+                                <p className="fw-bold text-white mb-2">
+                                    On-ground surveillance </p>
+                                <p className="fw-bold text-white  mb-2">
+                                    Digital footprint tracing</p>
+                                <p className="fw-bold text-white  mb-2">
+                                    Background verification</p>
+                                <p className="fw-bold text-white  mb-2">
+                                    Local enquiry</p>
+                                <p className="fw-bold text-white  mb-2">
+                                    Movement monitoring</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
