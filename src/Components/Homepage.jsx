@@ -16,12 +16,6 @@ const Homepage = () => {
     return (
         <>
 
-           
-
-
-
-
-
 
 
 
@@ -146,8 +140,8 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
-
-            <TextCar />
+<div className="container-fluid p-0">
+            <TextCar /></div>
             <BgImage />
 
 

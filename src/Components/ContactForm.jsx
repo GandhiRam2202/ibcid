@@ -41,7 +41,7 @@ const ContactForm = () => {
                 }}
             >
                 {() => (
-                    <Form className="border p-2 shadow">
+                    <Form className="border m-2 p-2 shadow">
                         <h3 className="mb-3 fw-bold font text-center">Send Us E-Mail</h3>
 
                         {/* Name */}

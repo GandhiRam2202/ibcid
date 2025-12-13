@@ -5,6 +5,7 @@ import Aboutus from './Aboutus';
 import Contactus from './Contactus';
 import Personal from './Personal';
 import Footer from './Footer';
+import Corporate from './Corporate';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
                     <Route path='/Aboutus' element={<Aboutus />} />
                     <Route path='/Contactus' element={<Contactus />} />
                     <Route path='/Personal' element={<Personal />} />
+                    <Route path='/Corporate' element={<Corporate />} />
                 </Routes>
             </div>
             <Footer/>

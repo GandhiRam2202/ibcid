@@ -77,7 +77,7 @@ const Navbar = () => {
                             </div>
                             <ul className="col-12 bg text-center dropdown-menu">
                                 <li><Link className='drop dropdown-item' to='/Personal'>Personal Sevices</Link></li>
-                                <li><Link className='drop dropdown-item' to='/Coporate'>Corporate Services</Link></li>
+                                <li><Link className='drop dropdown-item' to='/Corporate'>Corporate Services</Link></li>
                                 <li><Link className='drop dropdown-item' to='/Legal'>Legal Sevices</Link></li>
                                 <li><Link className='drop dropdown-item' to='/Special'>Special Sevices</Link></li>
 

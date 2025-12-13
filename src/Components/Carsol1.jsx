@@ -7,7 +7,7 @@ import { slidesImage, setting } from "./Contact";
 export default function ImageCarousel() {
 
   return (
-    <div className="container">
+    <div className="mt-2 container">
       <Slider {...setting}>
         {slidesImage.map((slide, i) => (
           <div className="container" key={i}>

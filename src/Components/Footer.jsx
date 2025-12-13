@@ -71,7 +71,7 @@ const Footer = () => {
                                     <Link className="text-decoration-none text-white" to='/Personal'><i className="text-danger bi bi-arrow-right"></i> Personal Services</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Aboutus'><i className="text-danger bi bi-arrow-right"></i> Corporate Services</Link>
+                                    <Link className="text-decoration-none text-white" to='/Corporate'><i className="text-danger bi bi-arrow-right"></i> Corporate Services</Link>
                                 </div>
                                 <div className="col-12">
                                     <Link className="text-decoration-none text-white" to='/Contactus'><i className="text-danger bi bi-arrow-right"></i> Special Services</Link>
