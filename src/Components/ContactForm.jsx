@@ -74,7 +74,7 @@ const ContactForm = () => {
 
     try {
       const res = await axios.post(
-        "https://ibcidmail.onrender.com/api/contact",
+        "https://ibcidmail.onrender.com/api/send-mail",
         data,
       );
 
