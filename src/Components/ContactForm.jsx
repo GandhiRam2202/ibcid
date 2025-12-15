@@ -1,14 +1,21 @@
-import React, { useRef } from "react";
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import { validationSchema } from "./Contact";
-import { toast } from "react-toastify";
+import React, { useRef, useState } from "react";
 import axios from "axios";
+import { toast } from "react-toastify";
 
 const ContactForm = () => {
-
   const toastCooldown = useRef(false);
 
-  // Show toast only once per second
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    message: "",
+  });
+
+  const [errors, setErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // Toast handler
   const showMailToast = (type = "success", msg = "") => {
     if (toastCooldown.current) return;
     toastCooldown.current = true;
@@ -22,117 +29,148 @@ const ContactForm = () => {
     }, 1200);
   };
 
+  // Validation
+  const validate = () => {
+    const newErrors = {};
+
+    if (!formData.name.trim()) newErrors.name = "Name is required";
+    if (!formData.phone.trim()) newErrors.phone = "Phone is required";
+    if (!formData.email.trim()) {
+      newErrors.email = "Email is required";
+    } else if (
+      !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)
+    ) {
+      newErrors.email = "Invalid email address";
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  // Input handler
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+
+    setErrors({
+      ...errors,
+      [e.target.name]: "",
+    });
+  };
+
+  // Submit handler
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!validate()) return;
+
+    setIsSubmitting(true);
+
+    const data = {
+      ...formData,
+      message: formData.message.replace(/\n/g, " "),
+    };
+
+    try {
+      const res = await axios.post(
+        "https://ibcidmail.onrender.com/api/contact",
+        data,
+      );
+
+      if (res.data?.success) {
+        showMailToast("success", "Mail Sent Successfully");
+        setFormData({ name: "", phone: "", email: "", message: "" });
+      } else {
+        showMailToast("error", "Something went wrong");
+      }
+    } catch (error) {
+      console.error(error);
+      showMailToast("error", "Server Error");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <div className="container p-0">
-      <Formik
-        initialValues={{ name: "", phone: "", email: "", message: "" }}
-        validationSchema={validationSchema}
-        onSubmit={async (values, { resetForm, setSubmitting }) => {
+      <form className="border m-2 p-2 shadow" onSubmit={handleSubmit}>
+        <h3 className="mb-3 fw-bold text-center">Send Us E-Mail</h3>
 
-          const data = {
-            ...values,
-            message: values.message.replace(/\n/g, " ")
-          };
+        {/* Name */}
+        <div className="mb-3">
+          <label htmlFor="name" className="form-label fw-bold">
+            Name <span className="text-danger">*</span>
+          </label>
+          <input
+            id="name"
+            name="name"
+            className="form-control"
+            value={formData.name}
+            onChange={handleChange}
+            placeholder="Enter Your Name"
+            autoComplete="name"
+          />
+          {errors.name && <small className="text-danger">{errors.name}</small>}
+        </div>
 
-          try {
-            const res = await axios.post(
-              "https://ibcidmail.onrender.com/api/contact",
-              data,
-              {
-                headers: {
-                  "Content-Type": "application/json"
-                }
-              }
-            );
+        {/* Phone */}
+        <div className="mb-3">
+          <label htmlFor="phone" className="form-label fw-bold">
+            Phone Number <span className="text-danger">*</span>
+          </label>
+          <input
+            id="phone"
+            name="phone"
+            className="form-control"
+            value={formData.phone}
+            onChange={handleChange}
+            placeholder="Enter Your Phone Number"
+            autoComplete="phone"
+          />
+          {errors.phone && <small className="text-danger">{errors.phone}</small>}
+        </div>
 
-            if (res.data?.success) {
-              showMailToast("success", "Mail Sent Successfully");
-              resetForm();
-            } else {
-              showMailToast("error", "Something went wrong");
-            }
+        {/* Email */}
+        <div className="mb-3">
+          <label htmlFor="email" className="form-label fw-bold">
+            Email <span className="text-danger">*</span>
+          </label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            className="form-control"
+            value={formData.email}
+            onChange={handleChange}
+            placeholder="Enter Your Email"
+            autoComplete="email"
+          />
+          {errors.email && <small className="text-danger">{errors.email}</small>}
+        </div>
 
-          } catch (error) {
-            console.error(error);
-            showMailToast("error", "Server Error");
-          } finally {
-            setSubmitting(false);
-          }
-        }}
-      >
-        {({ isSubmitting }) => (
-          <Form className="border m-2 p-2 shadow">
+        {/* Message */}
+        <div className="mb-3">
+          <label htmlFor="message" className="form-label fw-bold">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            className="form-control"
+            rows="3"
+            value={formData.message}
+            onChange={handleChange}
+          />
+        </div>
 
-            <h3 className="mb-3 fw-bold font text-center">
-              Send Us E-Mail
-            </h3>
-
-            {/* Name */}
-            <div className="mb-3">
-              <label className="form-label fw-bold">
-                Name <span className="font">*</span>
-              </label>
-              <Field
-                name="name"
-                className="form-control"
-                placeholder="Enter Your Name"
-                autoComplete="name"
-              />
-              <ErrorMessage name="name" component="small" className="text-danger" />
-            </div>
-
-            {/* Phone */}
-            <div className="mb-3">
-              <label className="form-label fw-bold">
-                Phone Number <span className="font">*</span>
-              </label>
-              <Field
-                name="phone"
-                className="form-control"
-                placeholder="Enter Your Phone Number"
-                autoComplete="phone"
-              />
-              <ErrorMessage name="phone" component="small" className="text-danger" />
-            </div>
-
-            {/* Email */}
-            <div className="mb-3">
-              <label className="form-label fw-bold">
-                Email <span className="font">*</span>
-              </label>
-              <Field
-                name="email"
-                type="email"
-                className="form-control"
-                placeholder="Enter Your Email"
-                autoComplete="email"
-              />
-              <ErrorMessage name="email" component="small" className="text-danger" />
-            </div>
-
-            {/* Message */}
-            <div className="mb-3">
-              <label className="form-label fw-bold">Message</label>
-              <Field
-                as="textarea"
-                name="message"
-                className="form-control"
-                rows="3"
-              />
-            </div>
-
-            {/* Submit */}
-            <button
-              type="submit"
-              className="fnt fw-bold bg btn w-100"
-              disabled={isSubmitting}
-            >
-              {isSubmitting ? "Sending..." : "Submit"}
-            </button>
-
-          </Form>
-        )}
-      </Formik>
+        {/* Submit */}
+        <button
+          type="submit"
+          className="fw-bold fnt bg btn w-100"
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? "Sending..." : "Submit"}
+        </button>
+      </form>
     </div>
   );
 };
