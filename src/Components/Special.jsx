@@ -177,7 +177,7 @@ const Special = () => {
                     <div className="d-flex justify-content-center text-center text-white mt-4 p-0" onClick={handleCall}>
                       <div className="col-sm-12 bg rounded">
                         <i className="p-0 bi bi-telephone-fill m-1">
-                          (+91)8667403826
+                          (+91)9043396037
                         </i>
                       </div>
                     </div>
