@@ -95,7 +95,7 @@ const Personal = () => {
 
                         <p className='mt-4 fw-bold'>⭐ Tracking People – Find Anyone, Anytime With 100% Confidentiality</p>
 
-                        <p> At <span className='text-danger fw-bold'>IBCI Detective</span>, we specialize in locating and tracking individuals
+                        <p> At <span className='text-danger fw-bold'>IBCID-Detective</span>, we specialize in locating and tracking individuals
                             with absolute privacy and accuracy. Whether someone has gone missing, avoiding
                             repayment, hiding the truth, or simply cannot be reached, our expert investigators
                             use advanced surveillance methods to trace their movements and provide you with reliable,
@@ -133,7 +133,7 @@ const Personal = () => {
 
 
                             <p>Divorce is one of the most emotionally stressful phases in life. When doubts,
-                                lies, or hidden activities start affecting your peace, <span className='fw-bold text-danger'>IBCI Detective </span>provides clear,
+                                lies, or hidden activities start affecting your peace, <span className='fw-bold text-danger'>IBCID-Detective </span>provides clear,
                                 reliable, and confidential evidence to help you make the right decision with confidence.</p>
 
                             <p> Our Divorce Investigation Service is designed to uncover the truth discreetly, legally,

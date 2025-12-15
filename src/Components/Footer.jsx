@@ -99,7 +99,7 @@ const Footer = () => {
                                     <p className='m-0'>No. 77, B/S1, Second Floor, 5th Main Road,</p>
                                     <p className='m-0'>Purushothaman Nagar, </p><p className='m-0'>Chromepet, Chennai - 600 044.</p></div>
                                 <div className="col-12 p-1" onClick={handleMail}><i className="bi bi-envelope-fill"></i> ibcidetective22@gmail.com</div>
-                                <div className="col-12" onClick={handleCall}><i className="bi bi-telephone-fill"></i> (+91)8667403826</div>
+                                <div className="col-12" onClick={handleCall}><i className="bi bi-telephone-fill"></i> (+91)9043396037</div>
                                 <div className="col-12 p-1" onClick={handleWap}><i className="bi bi-whatsapp"> Whatsapp</i></div>
                             </div>
                         </div>

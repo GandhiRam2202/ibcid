@@ -29,7 +29,7 @@ const Bgimg = () => {
                                             color: "white",
                                         }}
                                     >
-                                        Welcome to IBCI Detective
+                                        Welcome to IBCID-Detective
                                     </div>
             
                                     <div
@@ -44,7 +44,7 @@ const Bgimg = () => {
                                     <div className="d-flex justify-content-center text-center text-white mt-4 p-0" onClick={handleCall}>
                                         <div className="col-6 bg rounded-pill">
                                             <i className="p-0 bi bi-telephone-fill">
-                                                (+91)8667403826
+                                                (+91)9043396037
                                             </i>
                                         </div>
                                     </div>

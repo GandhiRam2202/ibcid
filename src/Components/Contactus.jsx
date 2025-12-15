@@ -59,7 +59,7 @@ const Contactus = () => {
               <h5 className="card-title mt-4">Phone</h5>
               <div className="card-body p-0">
                 <p className="crdtxt mt-5">
-                  (+91)8667403826
+                  (+91)9043396037
                 </p>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Contactus = () => {
               <h5 className="card-title mt-4">Whatsapp</h5>
               <div className="card-body p-0">
                 <p className="crdtxt mt-5">
-                  (+91)8667403826
+                  (+91)9043396037
                 </p>
               </div>
             </div>

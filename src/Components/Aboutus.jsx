@@ -19,9 +19,9 @@ const Aboutus = () => {
                     <div className="col-sm-12 text-warp col-lg-6 d-flex-column mt-2 justify-content-center align-items-center">
                         <h2>About</h2>
 
-                        <h1 className='text-danger mt-3 fw-bolder'>Welcome to IBCI Detective</h1>
+                        <h1 className='text-danger mt-3 fw-bolder'>Welcome to IBCID-Detective</h1>
 
-                        <p className='mt-4'>At <span className='text-danger fw-bold'>IBCI Detective</span> Agency, our mission is to bring <b>clarity, confidence,</b>
+                        <p className='mt-4'>At <span className='text-danger fw-bold'>IBCID-Detective</span> Agency, our mission is to bring <b>clarity, confidence,</b>
                             and <b>peace</b> of mind to individuals and organizations facing uncertainty.
                             Whether it’s a <span className="bg-warning rounded-pill px-2">personal concern, a corporate risk, or a legal requirement</span>,
                             we provide discreet and reliable investigation services tailored to your needs.</p>
@@ -33,7 +33,7 @@ const Aboutus = () => {
                                 and tracing, undercover assignments, surveillance operations, and legal support investigations.</span></p>
 
                         <p>Our goal is simple — to protect your interests with professionalism, integrity, and
-                            a commitment to absolute privacy. At <span className='text-danger fw-bold'>IBCI Detective</span> Agency, every case is handled
+                            a commitment to absolute privacy. At <span className='text-danger fw-bold'>IBCID-Detective</span> Agency, every case is handled
                             with <span className='fw-bold'> precision, transparency, and respect</span>, ensuring you get trustworthy information
                             when it matters most.</p>
                         <div className="row">

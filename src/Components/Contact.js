@@ -23,7 +23,7 @@ export  const slide = [
 
 export function handleWap() {
     window.open(
-        "https://wa.me/+918667403826?text=Hello%20I%20want%20to%20know%20more",
+        "https://wa.me/+919043396037?text=Hello%20I%20want%20to%20know%20more",
         "_blank"
     );
 };
@@ -40,7 +40,7 @@ export function handleMail() {
 
 
 export function handleCall() {
-    window.location.href = "tel:+918667403826"; // your phone number
+    window.location.href = "tel:+919043396037"; // your phone number
 
 };
 
