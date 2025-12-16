@@ -109,3 +109,22 @@
   color: white;
   
 }
+
+
+.click-wrap {
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  animation: moveLR 1s infinite;
+}
+
+@keyframes moveLR {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+

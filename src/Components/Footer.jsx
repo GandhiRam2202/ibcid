@@ -52,13 +52,13 @@ const Footer = () => {
                             <div className="col-sm-12 mt-3 col-lg-3">
                                 <h4>Quick Links</h4>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/'><i className="bi bi-arrow-right biho"> Home</i></Link>
+                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/'>Home</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Aboutus'><i className="biho bi bi-arrow-right"> About Us</i></Link>
+                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Aboutus'>About Us</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Contactus'><i className="biho bi bi-arrow-right"> Contact Us</i></Link>
+                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Contactus'>Contact Us</Link>
                                 </div>
                             </div>
 
@@ -68,16 +68,16 @@ const Footer = () => {
                                 <h4>Our Services</h4>
 
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Personal'><i className="text-danger bi bi-arrow-right"></i> Personal Services</Link>
+                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Personal'> Personal Services</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Corporate'><i className="text-danger bi bi-arrow-right"></i> Corporate Services</Link>
+                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Corporate'> Corporate Services</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Special'><i className="text-danger bi bi-arrow-right"></i> Special Services</Link>
+                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Special'> Special Services</Link>
                                 </div>
                                 <div className="col-12">
-                                    <Link className="text-decoration-none text-white" to='/Legal'><i className="text-danger bi bi-arrow-right"></i> Legal Services</Link>
+                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Legal'> Legal Services</Link>
                                 </div>
                                
 
