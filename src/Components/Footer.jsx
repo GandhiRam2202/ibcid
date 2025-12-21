@@ -52,13 +52,13 @@ const Footer = () => {
                             <div className="col-sm-12 mt-3 col-lg-3">
                                 <h4>Quick Links</h4>
                                 <div className="col-12">
-                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/'>Home</Link>
+                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/'> Home</Link>
                                 </div>
                                 <div className="col-12">
-                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Aboutus'>About Us</Link>
+                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Aboutus'> About Us</Link>
                                 </div>
                                 <div className="col-12">
-                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Contactus'>Contact Us</Link>
+                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Contactus'> Contact Us</Link>
                                 </div>
                             </div>
 
