@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { handleOpenMap, handleCall, handleMail, handleWap, linkedIn } from './Contact';
+import '../Components/Footer.css';
 
 const Footer = () => {
 
@@ -52,13 +53,13 @@ const Footer = () => {
                             <div className="col-sm-12 mt-3 col-lg-3">
                                 <h4>Quick Links</h4>
                                 <div className="col-12">
-                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/'> Home</Link>
+                                    <i className="click-wrap">👉</i><Link className="custom-link text-decoration-none p-2 text-white fw-bold" to='/'> Home</Link>
                                 </div>
                                 <div className="col-12">
-                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Aboutus'> About Us</Link>
+                                    <i className="click-wrap">👉</i><Link className="custom-link text-decoration-none p-2 text-white fw-bold" to='/Aboutus'> About Us</Link>
                                 </div>
                                 <div className="col-12">
-                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Contactus'> Contact Us</Link>
+                                    <i className="click-wrap">👉</i><Link className="custom-link text-decoration-none p-2 text-white fw-bold" to='/Contactus'> Contact Us</Link>
                                 </div>
                             </div>
 
@@ -68,16 +69,16 @@ const Footer = () => {
                                 <h4>Our Services</h4>
 
                                 <div className="col-12">
-                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Personal'> Personal Services</Link>
+                                    <i className="click-wrap">👉</i><Link className="custom-link text-decoration-none p-2 text-white fw-bold" to='/Personal'> Personal Services</Link>
                                 </div>
                                 <div className="col-12">
-                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Corporate'> Corporate Services</Link>
+                                    <i className="click-wrap">👉</i><Link className="custom-link text-decoration-none p-2 text-white fw-bold" to='/Corporate'> Corporate Services</Link>
                                 </div>
                                 <div className="col-12">
-                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Special'> Special Services</Link>
+                                    <i className="click-wrap">👉</i><Link className="custom-link text-decoration-none p-2 text-white fw-bold" to='/Special'> Special Services</Link>
                                 </div>
                                 <div className="col-12">
-                                    <i className="click-wrap">👉</i><Link className="text-decoration-none p-2 text-white" to='/Legal'> Legal Services</Link>
+                                    <i className="click-wrap">👉</i><Link className="custom-link text-decoration-none p-2 text-white fw-bold" to='/Legal'> Legal Services</Link>
                                 </div>
                                
 
