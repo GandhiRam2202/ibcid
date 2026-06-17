@@ -30,12 +30,8 @@ const Contactus = () => {
               <h5 className="card-title mt-4">Our Office</h5>
               <div className="card-body p-0">
 
-                <p className="crdtxt p-0 m-0" >SRI BALAVINAYAGA APARTMENT</p>
-                <p className="crdtxt p-0 m-0">No. 77, B/S1, Second Floor,</p>
-                <p className="crdtxt p-0 m-0">5th Main Road,</p>
-                <p className="crdtxt p-0 m-0">Purushothaman Nagar,</p>
-                <p className="crdtxt p-0 m-0">Chromepet, Chennai</p>
-                <p className="crdtxt p-0 m-0">600 044.</p>
+                <p className='m-0'>No. 11, Nehru Street, Bharathipuram,</p>
+                <p className='m-0'>Chromepet, Chennai - 600 044.</p>
 
               </div>
             </div>
@@ -113,7 +109,7 @@ const Contactus = () => {
                         color: "white",
                       }}
                     >
-                     CONTACT US
+                      CONTACT US
                     </div>
 
                     <div
@@ -158,13 +154,13 @@ const Contactus = () => {
 
             </div>
             <div className="col-sm-12 col-lg-6">
-              <ContactForm/>
+              <ContactForm />
 
             </div>
           </div>
         </div>
       </div>
-      <TextCar/>
+      <TextCar />
       <BgImage />
     </>
   );

@@ -49,7 +49,7 @@ export function handleCall() {
 
 
 export function handleOpenMap() {
-    window.open(`https://maps.app.goo.gl/aFxAg3V9eNXRsUM67`, "_blank");
+    window.open(`https://www.google.com/maps?q=12.9470306,80.1467975&z=17&hl=en`, "_blank");
 }
 
 
